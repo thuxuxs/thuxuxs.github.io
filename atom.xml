@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-23T18:09:40.000Z</updated>
+  <updated>2016-11-23T19:02:04.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My first page</title>
+    <link href="http://yoursite.com/2016/11/23/My-first-page/"/>
+    <id>http://yoursite.com/2016/11/23/My-first-page/</id>
+    <published>2016-11-23T18:59:56.000Z</published>
+    <updated>2016-11-23T19:02:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>#<strong>Hello World</strong></p>
+<p>$$\alpha$$</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> pylab <span class="keyword">import</span> *</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#&lt;strong&gt;Hello World&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;$$\alpha$$&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;
+    
+    </summary>
+    
+    
+      <category term="MathJax" scheme="http://yoursite.com/tags/MathJax/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
