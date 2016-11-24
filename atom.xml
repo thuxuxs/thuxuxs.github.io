@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2016-11-24T00:32:58.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://thuxuxs.github.io/"/>
+  <updated>2016-11-24T01:35:27.000Z</updated>
+  <id>http://thuxuxs.github.io/</id>
   
   <author>
     <name>Xusheng Xu</name>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>Hexo中添加MathJax</title>
-    <link href="http://yoursite.com/2016/11/23/Hexo%E4%B8%AD%E6%B7%BB%E5%8A%A0MathJax/"/>
-    <id>http://yoursite.com/2016/11/23/Hexo中添加MathJax/</id>
+    <link href="http://thuxuxs.github.io/2016/11/23/Hexo%E4%B8%AD%E6%B7%BB%E5%8A%A0MathJax/"/>
+    <id>http://thuxuxs.github.io/2016/11/23/Hexo中添加MathJax/</id>
     <published>2016-11-23T23:00:59.000Z</published>
-    <updated>2016-11-24T00:32:58.000Z</updated>
+    <updated>2016-11-24T01:35:27.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="本文介绍怎么在Hexo中添加MathJax支持及MathJax示例"><a href="#本文介绍怎么在Hexo中添加MathJax支持及MathJax示例" class="headerlink" title="本文介绍怎么在Hexo中添加MathJax支持及MathJax示例"></a>本文介绍怎么在Hexo中添加MathJax支持及MathJax示例</h1><a id="more"></a>
 <p></p><h4> 1 如何添加<p></p>
@@ -45,6 +45,8 @@
     
     </summary>
     
+    
+      <category term="Hexo" scheme="http://thuxuxs.github.io/tags/Hexo/"/>
     
   </entry>
   

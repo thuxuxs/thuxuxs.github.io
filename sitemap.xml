@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2016/11/23/Hexo%E4%B8%AD%E6%B7%BB%E5%8A%A0MathJax/</loc>
+    <loc>http://thuxuxs.github.io/tags/index.html</loc>
     
-    <lastmod>2016-11-24T00:32:58.000Z</lastmod>
+    <lastmod>2016-11-24T01:40:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://thuxuxs.github.io/categories/index.html</loc>
+    
+    <lastmod>2016-11-24T01:38:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://thuxuxs.github.io/2016/11/23/Hexo%E4%B8%AD%E6%B7%BB%E5%8A%A0MathJax/</loc>
+    
+    <lastmod>2016-11-24T01:35:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://thuxuxs.github.io/about/index.html</loc>
+    
+    <lastmod>2016-11-24T01:18:41.000Z</lastmod>
     
   </url>
   
