@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://thuxuxs.github.io/"/>
-  <updated>2016-11-29T05:06:06.000Z</updated>
+  <updated>2016-11-29T08:01:01.000Z</updated>
   <id>http://thuxuxs.github.io/</id>
   
   <author>
@@ -20,10 +20,24 @@
     <link href="http://thuxuxs.github.io/2016/11/28/BSIT/"/>
     <id>http://thuxuxs.github.io/2016/11/28/BSIT/</id>
     <published>2016-11-29T04:54:12.000Z</published>
-    <updated>2016-11-29T05:06:06.000Z</updated>
+    <updated>2016-11-29T08:01:01.000Z</updated>
     
     <content type="html"><![CDATA[<p>介绍布里渊诱导透明(BSIT)<br><a id="more"></a></p>
 <h1 id="布里渊诱导透明"><a href="#布里渊诱导透明" class="headerlink" title="布里渊诱导透明"></a>布里渊诱导透明</h1><p><img src="/img/BSIT.jpeg" alt="布里渊诱导透明--反斯托克斯"></p>
+<h2 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h2><p>腔内有两个光学模式：$\omega_1$，$\omega_2$<br>腔内有一个布里渊模式：$\Omega_m$<br>在$\omega_1$附近的强控制光：$\omega_c$<br>在$\omega_2$附近的弱泵浦光：$\omega_p$<br>各失谐量：<br>$\Delta_1=\omega_c-\omega_1$<br>$\Delta_2=\omega_p-\omega_2$<br>$\delta=\omega_2-\omega_1-\Omega_m$<br>$\Delta_B=\omega_p-\omega_c-\Omega_m$</p>
+<h2 id="哈密顿量"><a href="#哈密顿量" class="headerlink" title="哈密顿量"></a>哈密顿量</h2><p>未经过布里渊耦合时：<br>$$<br>\begin{aligned}<br>H&amp;=\hbar\omega_1 a^\dagger_1 a_1+\hbar\omega_2 a^\dagger_2 a_2\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,1}}s_{in,1}(a^\dagger_1 e^{-i\omega_c t}-a_1 e^{i\omega_c t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,2}}s_{in,2}(a^\dagger_2 e^{-i\omega_p t}-a_2 e^{i\omega_p t})<br>\end{aligned}<br>$$<br>那么以$\omega_c$光为参考，即选择酉变换$U=\exp(i\omega_c a^\dagger_1 a_1 t)$，此时模式一的运动方程为（考虑了损耗）<br>$$\frac{da_1}{dt}=i\Delta_1 a_1-\frac{\kappa_1}{2}a_1+\sqrt{\kappa_{ex,1}}s_{in,1}$$</p>
+<blockquote>
+<p>这里用到公式$H’=U H U^\dagger -i\hbar U\partial U^\dagger /\partial t$</p>
+</blockquote>
+<p>在稳态是，导数为零，我们解得<br>$$a_1=\frac{\sqrt{\kappa_{ex,1}}s_{in,1}}{-i\Delta_1+\kappa_1/2}$$<br>在实验室参考系中，应该在做逆变换<br>$$U a_1 U^\dagger=\frac{\sqrt{\kappa_{ex,1}}s_{in,1}}{-i\Delta_1+\kappa_1/2}e^{-i\omega_ct}$$</p>
+<p>当进过布里渊耦合时，哈密顿量为<br>$$<br>\begin{aligned}<br>H&amp;=\hbar\omega_1 a^\dagger_1 a_1+\hbar\omega_2 a^\dagger_2 a_2+\hbar\Omega_m b^\dagger b+\hbar g(a^\dagger_1 b^\dagger a_2+a_1 b a^\dagger_2)\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,1}}s_{in,1}(a^\dagger_1 e^{-i\omega_c t}-a_1 e^{i\omega_c t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,2}}s_{in,2}(a^\dagger_2 e^{-i\omega_p t}-a_2 e^{i\omega_p t})<br>\end{aligned}<br>$$<br>由于控制光为强光，我们可以假设其不被布里渊模影响，那么我们可以认定$a_1$为一复数，$a_1^\dagger a_1=n_1$，所以</p>
+<p>$$a_1=\sqrt{n_1}e^{-i\omega_c t}=\left|\frac{\sqrt{\kappa_{ex,1}}s_{in,1}}{-i\Delta_1+\kappa_1/2}\right|e^{-i\omega_c t}$$</p>
+<p>将其代入哈密顿量，并忽略常数项，我们得到<br>$$<br>\begin{aligned}<br>H&amp;=\hbar\omega_2 a^\dagger_2 a_2+\hbar\Omega_m b^\dagger b+\hbar g\sqrt{n_1}(b^\dagger a_2 e^{i\omega_c t}+b a_2^\dagger e^{-i\omega_c t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,2}}s_{in,2}(a^\dagger_2 e^{-i\omega_p t}-a_2 e^{i\omega_p t})<br>\end{aligned}$$<br>对于上述的哈密顿量，我们选择酉变换$$U=\exp(i\omega_p a^\dagger_2 a_2 t+i(\omega_p-\omega_c)b^\dagger b t)$$</p>
+<p>我们得到变换后的哈密顿量为<br>$$<br>\begin{aligned}<br>H&amp;=\hbar(\omega_2-\omega_p)a^\dagger_2 a_2+\hbar(\Omega_m-(\omega_p-\omega_c))b^\dagger b\\<br>&amp;+\hbar g\sqrt{n_1}(b^\dagger a_2 +b a^\dagger_2)+i\hbar\sqrt{\kappa_{ex,2}}s_{in,2}(a^\dagger_2-a_2)\\<br>&amp;=-\hbar \Delta_2 a^\dagger_2 a_2-\hbar \Delta_B b^\dagger b\\<br>&amp;+\hbar g\sqrt{n_1}(b^\dagger a_2 +b a^\dagger_2)+i\hbar\sqrt{\kappa_{ex,2}}s_{in,2}(a^\dagger_2-a_2)\\<br>\end{aligned}$$</p>
+<p>得到哈密顿量后我们可以写出泵浦光和布里渊模的运动方程（考虑损耗）<br>$$<br>\begin{array}{}<br>\frac{da_2}{dt}=(i\Delta_2-\kappa_2/2) a_2-ig\sqrt{n_1}b+\sqrt{\kappa_{ex,2}}s_{in,2}\\<br>\\<br>\frac{db}{dt}=(i\Delta_B-\Gamma_m )b-i g \sqrt{n_1}a_2<br>\end{array}<br>$$</p>
+<p>在稳态下求解的，<br>$$<br>a_2=-\frac{\sqrt{\kappa _{\text{ex},2}} s_{\text{in},2}}{\frac{g^2 n_1}{-\Gamma _m+i \Delta _B}+i \Delta _2-\frac{\kappa _2}{2}}<br>$$</p>
+<p>代入输入输出关系$s_{out,2}=s_{in,2}-\sqrt{\kappa_{ex,2}}a_2$，求出投射谱<br>$$T=\text{Abs}\left(1-\frac{\sqrt{\kappa_{ex,2}}a_2}{s_{in,2}}\right)^2$$<br><code>Mathematica</code>代码如下<br><figure class="highlight mathematica"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Manipulate</span>[</div><div class="line"> <span class="keyword">Plot</span>[<span class="keyword">Abs</span>[<span class="number">1</span> + <span class="number">1</span>/(<span class="keyword">I</span> x - a + b/(<span class="keyword">I</span> x - c))]^<span class="number">2</span>, &#123;x, -4, 4&#125;,</div><div class="line">  <span class="keyword">PlotRange</span> -&gt; &#123;&#123;-4, 4&#125;, &#123;0, 1&#125;&#125;], &#123;a, 0.5, 2&#125;, &#123;b, 0, 2&#125;, &#123;c, 0, 2&#125;]</div></pre></td></tr></table></figure></p>
+<p><img src="/img/BSIT_OUT.jpeg" alt="布里渊诱导透明"></p>
 ]]></content>
     
     <summary type="html">
