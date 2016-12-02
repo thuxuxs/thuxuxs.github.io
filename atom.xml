@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://thuxuxs.github.io/"/>
-  <updated>2016-12-02T17:29:35.000Z</updated>
+  <updated>2016-12-02T18:00:09.000Z</updated>
   <id>http://thuxuxs.github.io/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://thuxuxs.github.io/2016/12/02/%E6%A0%BC%E6%9E%97%E5%87%BD%E6%95%B0/"/>
     <id>http://thuxuxs.github.io/2016/12/02/格林函数/</id>
     <published>2016-12-02T17:24:21.000Z</published>
-    <updated>2016-12-02T17:29:35.000Z</updated>
+    <updated>2016-12-02T18:00:09.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="格林函数"><a href="#格林函数" class="headerlink" title="格林函数"></a>格林函数</h1><p>以势能的求解为例，我们来了解一下格林函数。<br><a id="more"></a><br>假设空间有电荷量分布为$\rho(r)$,则根据高斯定理，我们有空间电场应该满足条件$$\nabla\cdot E(r)=\frac{\rho(r)}{\varepsilon_0},$$再根据$E(r)=-\nabla \phi(r)$，结合起来看，我们可以求得电势和电荷分布之间的关系$$-\nabla^2\phi(r)=\frac{\rho(r)}{\varepsilon_0},$$此即为泊松方程，进一步我们有<br>$$\begin{aligned}<br>-\nabla^2\phi(r_1)&amp;=\frac{\rho(r_1)}{\varepsilon_0}\\<br>&amp;=\frac{1}{\varepsilon_0}\int\delta(r_1-r_2)\rho(r_2)d^3r_2\\<br>&amp;=\frac{1}{\varepsilon_0}\int[-\nabla^2G(r_1,r_2)]\rho(r_2)d^3r_2\\<br>&amp;=-\nabla^2\left\{\frac{1}{\varepsilon_0}\int G(r_1,r_2)\rho(r_2)d^3r_2\right\}<br>\end{aligned}$$<br>其中$G(r_1,r_2)$即为格林函数。所以我们求解此泊松方程等价于求满足$$-\nabla^2G(r_1,r_2)]=\delta(r_1-r_2)$$的格林函数即可，然后在利用$$\phi(r_1)=\frac{1}{\varepsilon_0}\int G(r_1,r_2)\rho(r_2)d^3r_2$$可求得空间的电势分布。其实，根据电势叠加定理我们可以直接写出$$\phi(r_1)=\frac{1}{4\pi\varepsilon_0}\int\frac{\rho(r_2)}{\left|r_1-r_2\right|}d^3r_2$$由此得到的格林函数$$G(r_1,r_2)=\frac{1}{4\pi}\frac{1}{\left|r_1-r_2\right|}$$与前式满足泊松方程所解得的格林函数是一致的。对于这种利用格林函数来求解微分方程的方法，我们可以理解为利用点电荷产生的势的叠加来求得总的势。</p>
+    <content type="html"><![CDATA[<p>以势能的求解为例，我们来了解一下格林函数。<br><a id="more"></a><br>假设空间有电荷量分布为$\rho(r)$,则根据高斯定理，我们有空间电场应该满足条件$$\nabla\cdot E(r)=\frac{\rho(r)}{\varepsilon_0},$$再根据$E(r)=-\nabla \phi(r)$，结合起来看，我们可以求得电势和电荷分布之间的关系$$-\nabla^2\phi(r)=\frac{\rho(r)}{\varepsilon_0},$$此即为泊松方程，进一步我们有<br>$$\begin{aligned}<br>-\nabla^2\phi(r_1)&amp;=\frac{\rho(r_1)}{\varepsilon_0}\\<br>&amp;=\frac{1}{\varepsilon_0}\int\delta(r_1-r_2)\rho(r_2)d^3r_2\\<br>&amp;=\frac{1}{\varepsilon_0}\int[-\nabla^2G(r_1,r_2)]\rho(r_2)d^3r_2\\<br>&amp;=-\nabla^2\left\{\frac{1}{\varepsilon_0}\int G(r_1,r_2)\rho(r_2)d^3r_2\right\}<br>\end{aligned}$$<br>其中$G(r_1,r_2)$即为格林函数。所以我们求解此泊松方程等价于求满足$$-\nabla^2G(r_1,r_2)]=\delta(r_1-r_2)$$的格林函数即可，然后在利用$$\phi(r_1)=\frac{1}{\varepsilon_0}\int G(r_1,r_2)\rho(r_2)d^3r_2$$可求得空间的电势分布。其实，根据电势叠加定理我们可以直接写出$$\phi(r_1)=\frac{1}{4\pi\varepsilon_0}\int\frac{\rho(r_2)}{\left|r_1-r_2\right|}d^3r_2$$由此得到的格林函数$$G(r_1,r_2)=\frac{1}{4\pi}\frac{1}{\left|r_1-r_2\right|}$$与前式满足泊松方程所解得的格林函数是一致的。对于这种利用格林函数来求解微分方程的方法，我们可以理解为利用点电荷产生的势的叠加来求得总的势。</p>
 <h3 id="更一般的情况"><a href="#更一般的情况" class="headerlink" title="更一般的情况"></a>更一般的情况</h3><p>设我们有算符$\mathcal{L}$，其作用在势分布函数$y(r)$上得到空间源分布$f(r)$，则我们有<br>$$\begin{aligned}<br>\mathcal{L}y(r)&amp;=f(r)\\<br>&amp;=\int\delta(r-r’)f(r’)dr’\\<br>&amp;=\int \mathcal{L}G(r,r’)f(r’)dr’\\<br>&amp;=\mathcal{L}\int G(r,r’)f(r’)dr’\\<br>\end{aligned}$$<br>并且<br>$$<br>\mathcal{L} G(r,r’)=\delta(r-r’)<br>$$$$<br>y(r)=\int G(r,r’)f(r’)dr’<br>$$</p>
 <h3 id="物理学中的一些格林函数"><a href="#物理学中的一些格林函数" class="headerlink" title="物理学中的一些格林函数"></a>物理学中的一些格林函数</h3><p>$$\begin{array}{c|ccc}<br>dim &amp; \nabla^2 &amp; \nabla^2+k^2 &amp; \nabla^2-k^2\\<br>\hline<br>1 &amp; \frac{1}{2}\left|x_1-x_2\right| &amp; -\frac{i}{2k}\exp(ik\left|x_1-x_2\right|) &amp; -\frac{1}{2k}\exp(-k\left|x_1-x_2\right|)\\<br>2 &amp; \frac{1}{2\pi}\ln\left|\rho_1-\rho_2\right| &amp; -\frac{i}{4}H_0^{(1)}(k\left|\rho_1-\rho_2\right|) &amp; -\frac{1}{2\pi}K_0(k\left|\rho_1-\rho_2\right|)\\<br>3 &amp; -\frac{1}{4\pi}\frac{1}{\left|r_1-r_2\right|} &amp; -\frac{\exp(ik\left|r_1-r_2\right|)}{4\pi\left|r_1-r_2\right|} &amp; -\frac{\exp(-k\left|r_1-r_2\right|)}{4\pi\left|r_1-r_2\right|}<br>\end{array}$$<br>其中$H_0^{(1)}$为Hankel函数，$K_0$是modified Bessel函数。</p>
 <blockquote>
@@ -32,7 +32,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;格林函数&quot;&gt;&lt;a href=&quot;#格林函数&quot; class=&quot;headerlink&quot; title=&quot;格林函数&quot;&gt;&lt;/a&gt;格林函数&lt;/h1&gt;&lt;p&gt;以势能的求解为例，我们来了解一下格林函数。&lt;br&gt;
+      &lt;p&gt;以势能的求解为例，我们来了解一下格林函数。&lt;br&gt;
     
     </summary>
     
