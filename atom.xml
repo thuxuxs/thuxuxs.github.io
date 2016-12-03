@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://thuxuxs.github.io/"/>
-  <updated>2016-12-02T18:00:09.000Z</updated>
+  <updated>2016-12-03T01:28:34.000Z</updated>
   <id>http://thuxuxs.github.io/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OMIT</title>
+    <link href="http://thuxuxs.github.io/2016/12/02/OMIT/"/>
+    <id>http://thuxuxs.github.io/2016/12/02/OMIT/</id>
+    <published>2016-12-02T21:32:22.000Z</published>
+    <updated>2016-12-03T01:28:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>OMIT: 光机械诱导透明<br><a id="more"></a></p>
+<h2 id="没有泵浦光时的情况"><a href="#没有泵浦光时的情况" class="headerlink" title="没有泵浦光时的情况"></a>没有泵浦光时的情况</h2><p>系统哈密顿量为<br>$$<br>\begin{aligned}<br>H&amp;=\frac{p^2}{2m_{eff}}+\frac{1}{2}m_{eff}\Omega_m^2 x^2+\hbar \omega_0a^\dagger a+\hbar g_0xa^\dagger a\\<br>&amp;+i\hbar \sqrt{\kappa_{ex}}(s_{in}a^\dagger e^{-i\omega_ct}-s_{in}^<em> ae^{i\omega_ct})<br>\end{aligned}$$<br>选择变换$U=\exp(i\omega_ca^{\dagger} at)$，得到新的哈密顿量为<br>$$<br>\begin{aligned}<br>H&amp;=\frac{p^2}{2m_{eff}}+\frac{1}{2}m_{eff}\Omega_m^2 x^2-\hbar \Delta a^\dagger a+\hbar g_0xa^\dagger a\\<br>&amp;+i\hbar \sqrt{\kappa_{ex}}(s_{in}a^\dagger-s_{in}^</em>a)<br>\end{aligned}$$<br>写出运动方程（考虑损耗）<br>$$<br>\frac{da}{dt}=(i(\Delta-g_0x)-\kappa/2)a+\sqrt{\kappa_{ex}}s_{in}\\<br>$$$$<br>m_{eff}\frac{d^2x}{dt^2}=-m_{eff}\Omega_m^2x-\hbar g_0a^\dagger a-\Gamma_m m_{eff}\frac{dx}{dt}<br>$$<br>求得稳态解（各导数为零）为<br>$$<br>\bar a=\frac{\sqrt{\kappa_{ex}}s_{in}}{-i(\Delta-g_0\bar x)+\kappa/2}<br>$$$$<br>\bar x=-\frac{\hbar g_0|\bar a|^2}{m_{eff}\Omega_m^2}<br>$$<br>由此可研究稳态解个数的问题，会出现双稳态现象。<br>下面将考虑上面微分方程组在稳态解附近的情况，即假设$a=\bar a+\delta a,x=\bar x+\delta x$<br>所以可以解出小量$\delta a$和$\delta x$的运动方程<br>$$<br>\begin{aligned}<br>\dot{\delta a}&amp;=(i(\Delta -g_0\bar x)-\kappa/2-ig_0\delta x)(\bar a+\delta a)+\sqrt{\kappa_{ex}}s_{in}\\<br>&amp;=(i(\Delta-g_0\bar x)-\kappa/2)\delta a-ig_0\bar a\delta x\\<br>&amp;=(i\bar \Delta -\kappa/2)\delta a-ig_0\bar a\delta x<br>\end{aligned}<br>$$$$<br>\begin{aligned}<br>m_{eff}\ddot{\delta x}&amp;=-m_{eff}\Omega_m^2(\bar x+\delta x)-\hbar g_0(\bar a^<em>+\delta a^\dagger)(\bar a+\delta a)-\Gamma_mm_{eff}\dot{\delta x}\\<br>&amp;=-m_{eff}\Omega_m^2\delta x-\hbar g_0(\bar a^</em>\delta a+\bar a\delta a^\dagger)-\Gamma_mm_{eff}\dot{\delta x}<br>\end{aligned}<br>$$<br>经由傅里叶变换，转换到频谱中分析</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;OMIT: 光机械诱导透明&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+    
+  </entry>
   
   <entry>
     <title>格林函数</title>
@@ -46,7 +68,7 @@
     <link href="http://thuxuxs.github.io/2016/11/28/BSIT/"/>
     <id>http://thuxuxs.github.io/2016/11/28/BSIT/</id>
     <published>2016-11-29T04:54:12.000Z</published>
-    <updated>2016-11-29T08:01:01.000Z</updated>
+    <updated>2016-12-02T22:09:10.000Z</updated>
     
     <content type="html"><![CDATA[<p>介绍布里渊诱导透明(BSIT)<br><a id="more"></a></p>
 <h1 id="布里渊诱导透明"><a href="#布里渊诱导透明" class="headerlink" title="布里渊诱导透明"></a>布里渊诱导透明</h1><p><img src="/img/BSIT.jpeg" alt="布里渊诱导透明--反斯托克斯"></p>
@@ -56,7 +78,7 @@
 <p>这里用到公式$H’=U H U^\dagger -i\hbar U\partial U^\dagger /\partial t$</p>
 </blockquote>
 <p>在稳态是，导数为零，我们解得<br>$$a_1=\frac{\sqrt{\kappa_{ex,1}}s_{in,1}}{-i\Delta_1+\kappa_1/2}$$<br>在实验室参考系中，应该在做逆变换<br>$$U a_1 U^\dagger=\frac{\sqrt{\kappa_{ex,1}}s_{in,1}}{-i\Delta_1+\kappa_1/2}e^{-i\omega_ct}$$</p>
-<p>当进过布里渊耦合时，哈密顿量为<br>$$<br>\begin{aligned}<br>H&amp;=\hbar\omega_1 a^\dagger_1 a_1+\hbar\omega_2 a^\dagger_2 a_2+\hbar\Omega_m b^\dagger b+\hbar g(a^\dagger_1 b^\dagger a_2+a_1 b a^\dagger_2)\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,1}}s_{in,1}(a^\dagger_1 e^{-i\omega_c t}-a_1 e^{i\omega_c t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,2}}s_{in,2}(a^\dagger_2 e^{-i\omega_p t}-a_2 e^{i\omega_p t})<br>\end{aligned}<br>$$<br>由于控制光为强光，我们可以假设其不被布里渊模影响，那么我们可以认定$a_1$为一复数，$a_1^\dagger a_1=n_1$，所以</p>
+<p>当进过布里渊耦合时，哈密顿量为<br>$$<br>\begin{aligned}<br>H&amp;=\hbar\omega_1 a^\dagger_1 a_1+\hbar\omega_2 a^\dagger_2 a_2+\hbar\Omega_m b^\dagger b+\hbar g(a^\dagger_1 b^\dagger a_2+a_1 b a^\dagger_2)\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,1}}s_{in,1}(a^\dagger_1 e^{-i\omega_c t}-a_1 e^{i\omega_c t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,2}}s_{in,2}(a^\dagger_2 e^{-i\omega_p t}-a_2 e^{i\omega_p t})<br>\end{aligned}<br>$$<br>由于控制光为强光，那么我们可以认定$a_1$为一复数，$a_1^\dagger a_1=n_1$，所以</p>
 <p>$$a_1=\sqrt{n_1}e^{-i\omega_c t}=\left|\frac{\sqrt{\kappa_{ex,1}}s_{in,1}}{-i\Delta_1+\kappa_1/2}\right|e^{-i\omega_c t}$$</p>
 <p>将其代入哈密顿量，并忽略常数项，我们得到<br>$$<br>\begin{aligned}<br>H&amp;=\hbar\omega_2 a^\dagger_2 a_2+\hbar\Omega_m b^\dagger b+\hbar g\sqrt{n_1}(b^\dagger a_2 e^{i\omega_c t}+b a_2^\dagger e^{-i\omega_c t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,2}}s_{in,2}(a^\dagger_2 e^{-i\omega_p t}-a_2 e^{i\omega_p t})<br>\end{aligned}$$<br>对于上述的哈密顿量，我们选择酉变换$$U=\exp(i\omega_p a^\dagger_2 a_2 t+i(\omega_p-\omega_c)b^\dagger b t)$$</p>
 <p>我们得到变换后的哈密顿量为<br>$$<br>\begin{aligned}<br>H&amp;=\hbar(\omega_2-\omega_p)a^\dagger_2 a_2+\hbar(\Omega_m-(\omega_p-\omega_c))b^\dagger b\\<br>&amp;+\hbar g\sqrt{n_1}(b^\dagger a_2 +b a^\dagger_2)+i\hbar\sqrt{\kappa_{ex,2}}s_{in,2}(a^\dagger_2-a_2)\\<br>&amp;=-\hbar \Delta_2 a^\dagger_2 a_2-\hbar \Delta_B b^\dagger b\\<br>&amp;+\hbar g\sqrt{n_1}(b^\dagger a_2 +b a^\dagger_2)+i\hbar\sqrt{\kappa_{ex,2}}s_{in,2}(a^\dagger_2-a_2)\\<br>\end{aligned}$$</p>
