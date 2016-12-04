@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://thuxuxs.github.io/"/>
-  <updated>2016-12-03T01:28:34.000Z</updated>
+  <updated>2016-12-04T02:14:22.000Z</updated>
   <id>http://thuxuxs.github.io/</id>
   
   <author>
@@ -20,10 +20,23 @@
     <link href="http://thuxuxs.github.io/2016/12/02/OMIT/"/>
     <id>http://thuxuxs.github.io/2016/12/02/OMIT/</id>
     <published>2016-12-02T21:32:22.000Z</published>
-    <updated>2016-12-03T01:28:34.000Z</updated>
+    <updated>2016-12-04T02:14:22.000Z</updated>
     
     <content type="html"><![CDATA[<p>OMIT: 光机械诱导透明<br><a id="more"></a></p>
-<h2 id="没有泵浦光时的情况"><a href="#没有泵浦光时的情况" class="headerlink" title="没有泵浦光时的情况"></a>没有泵浦光时的情况</h2><p>系统哈密顿量为<br>$$<br>\begin{aligned}<br>H&amp;=\frac{p^2}{2m_{eff}}+\frac{1}{2}m_{eff}\Omega_m^2 x^2+\hbar \omega_0a^\dagger a+\hbar g_0xa^\dagger a\\<br>&amp;+i\hbar \sqrt{\kappa_{ex}}(s_{in}a^\dagger e^{-i\omega_ct}-s_{in}^<em> ae^{i\omega_ct})<br>\end{aligned}$$<br>选择变换$U=\exp(i\omega_ca^{\dagger} at)$，得到新的哈密顿量为<br>$$<br>\begin{aligned}<br>H&amp;=\frac{p^2}{2m_{eff}}+\frac{1}{2}m_{eff}\Omega_m^2 x^2-\hbar \Delta a^\dagger a+\hbar g_0xa^\dagger a\\<br>&amp;+i\hbar \sqrt{\kappa_{ex}}(s_{in}a^\dagger-s_{in}^</em>a)<br>\end{aligned}$$<br>写出运动方程（考虑损耗）<br>$$<br>\frac{da}{dt}=(i(\Delta-g_0x)-\kappa/2)a+\sqrt{\kappa_{ex}}s_{in}\\<br>$$$$<br>m_{eff}\frac{d^2x}{dt^2}=-m_{eff}\Omega_m^2x-\hbar g_0a^\dagger a-\Gamma_m m_{eff}\frac{dx}{dt}<br>$$<br>求得稳态解（各导数为零）为<br>$$<br>\bar a=\frac{\sqrt{\kappa_{ex}}s_{in}}{-i(\Delta-g_0\bar x)+\kappa/2}<br>$$$$<br>\bar x=-\frac{\hbar g_0|\bar a|^2}{m_{eff}\Omega_m^2}<br>$$<br>由此可研究稳态解个数的问题，会出现双稳态现象。<br>下面将考虑上面微分方程组在稳态解附近的情况，即假设$a=\bar a+\delta a,x=\bar x+\delta x$<br>所以可以解出小量$\delta a$和$\delta x$的运动方程<br>$$<br>\begin{aligned}<br>\dot{\delta a}&amp;=(i(\Delta -g_0\bar x)-\kappa/2-ig_0\delta x)(\bar a+\delta a)+\sqrt{\kappa_{ex}}s_{in}\\<br>&amp;=(i(\Delta-g_0\bar x)-\kappa/2)\delta a-ig_0\bar a\delta x\\<br>&amp;=(i\bar \Delta -\kappa/2)\delta a-ig_0\bar a\delta x<br>\end{aligned}<br>$$$$<br>\begin{aligned}<br>m_{eff}\ddot{\delta x}&amp;=-m_{eff}\Omega_m^2(\bar x+\delta x)-\hbar g_0(\bar a^<em>+\delta a^\dagger)(\bar a+\delta a)-\Gamma_mm_{eff}\dot{\delta x}\\<br>&amp;=-m_{eff}\Omega_m^2\delta x-\hbar g_0(\bar a^</em>\delta a+\bar a\delta a^\dagger)-\Gamma_mm_{eff}\dot{\delta x}<br>\end{aligned}<br>$$<br>经由傅里叶变换，转换到频谱中分析</p>
+<h2 id="没有泵浦光时的情况"><a href="#没有泵浦光时的情况" class="headerlink" title="没有泵浦光时的情况"></a>没有泵浦光时的情况</h2><p>系统哈密顿量为<br>$$\begin{aligned}<br>H&amp;=\frac{p^2}{2m_{eff}}+\frac{1}{2}m_{eff}\Omega_m^2 x^2+\hbar \omega_0a^\dagger a+\hbar g_0xa^\dagger a\\<br>&amp;+i\hbar \sqrt{\kappa_{ex}}(s_{in}a^\dagger e^{-i\omega_ct}-s_{in}^* ae^{i\omega_ct})<br>\end{aligned}$$</p>
+<p>选择变换$U=\exp(i\omega_ca^{\dagger} at)$，得到新的哈密顿量为</p>
+<p>$$\begin{aligned}<br>H&amp;=\frac{p^2}{2m_{eff}}+\frac{1}{2}m_{eff}\Omega_m^2 x^2-\hbar \Delta a^\dagger a+\hbar g_0xa^\dagger a\\<br>&amp;+i\hbar \sqrt{\kappa_{ex}}(s_{in}a^\dagger-s_{in}^* a)<br>\end{aligned}$$</p>
+<p>$\Delta=\omega_c-\omega_0$。写出运动方程（考虑损耗）</p>
+<p>$$\frac{da}{dt}=(i(\Delta-g_0x)-\kappa/2)a+\sqrt{\kappa_{ex}}s_{in}$$</p>
+<p>$$m_{eff}\frac{d^2x}{dt^2}=-m_{eff}\Omega_m^2x-\hbar g_0a^\dagger a-\Gamma_m m_{eff}\frac{dx}{dt}$$</p>
+<p>求得稳态解（各导数为零）为<br>$$\bar a=\frac{\sqrt{\kappa_{ex}}s_{in}}{-i(\Delta-g_0\bar x)+\kappa/2}$$</p>
+<p>$$\bar x=-\frac{\hbar g_0|\bar a|^2}{m_{eff}\Omega_m^2}$$</p>
+<p>由此可研究稳态解个数的问题，会出现双稳态现象。<br>下面将考虑上面微分方程组在稳态解附近的情况，即假设$a=\bar a+\delta a,x=\bar x+\delta x$<br>所以可以解出小量$\delta a$和$\delta x$的运动方程</p>
+<p>$$\begin{aligned}<br>\dot{\delta a}&amp;=(i(\Delta -g_0\bar x)-\kappa/2-ig_0\delta x)(\bar a+\delta a)+\sqrt{\kappa_{ex}}s_{in}\\<br>&amp;=(i(\Delta-g_0\bar x)-\kappa/2)\delta a-ig_0\bar a\delta x\\<br>&amp;=(i\bar \Delta -\kappa/2)\delta a-ig_0\bar a\delta x<br>\end{aligned}$$</p>
+<p>$$\begin{aligned}<br>m_{eff}\ddot{\delta x}&amp;=-m_{eff}\Omega_m^2(\bar x+\delta x)-\hbar g_0(\bar a^\dagger +\delta a^\dagger)(\bar a+\delta a)-\Gamma_mm_{eff}\dot{\delta x}\\<br>&amp;=-m_{eff}\Omega_m^2\delta x-\Gamma_mm_{eff}\dot{\delta x}-\hbar g_0 (\delta a \bar a^\dagger + \bar a\delta a^\dagger)<br>\end{aligned}$$</p>
+<p>经由傅里叶变换，转换到频谱中分析<br>$$<br>-i\omega \delta a[\omega]=(i\bar \Delta-\kappa/2)\delta a[\omega]-ig_0\bar a\delta x[\omega]<br>$$<br>$$<br>(-\omega^2 -i\omega\Gamma_m+\Omega_m^2)\delta x[\omega]=-\hbar g_0(\bar a^\dagger \delta a[\omega]+\bar a\delta a[-\omega]^\dagger)/m_{eff}<br>$$<br>从而解出<br>$$<br>\begin{aligned}<br>\delta a[\omega]&amp;=\frac{ig_0\bar a}{i(\bar \Delta -\omega)-\kappa/2}\delta x[\omega]\\<br>\delta a^\dagger[\omega]&amp;=\frac{-ig_0\bar a}{-i(\bar \Delta +\omega)-\kappa/2}\delta x[\omega]\\<br>\end{aligned}<br>$$<br>在机械振动下产生了斯托克斯分量和反斯托克斯分量</p>
+<h2 id="有弱的泵浦光参与时的情况"><a href="#有弱的泵浦光参与时的情况" class="headerlink" title="有弱的泵浦光参与时的情况"></a>有弱的泵浦光参与时的情况</h2><p>此时由于有弱泵浦的参与，哈密顿量应该为<br>$$\begin{aligned}<br>H&amp;=\frac{p^2}{2m_{eff}}+\frac{1}{2}m_{eff}\Omega_m^2 x^2+\hbar \omega_0a^\dagger a+\hbar g_0xa^\dagger a\\<br>&amp;+i\hbar \sqrt{\kappa_{ex}}(s_{in} a^\dagger-s_{in}^* a)<br>\end{aligned}$$<br>其中$s_{in}=s_{c}e^{-i\omega_c t}+\delta s_p e^{-i\omega_p t}=(s_c+\delta s_p e^{-i(\omega_p-\omega_c)t})e^{-i\omega_c t}$<br>由于泵浦很弱，我们将$\bar a$和$\bar x$去为刚才没有泵浦是所计算出来的表达式，从而得到新的平衡位置附近的运动方程<br>$$\begin{aligned}<br>\dot{\delta a}&amp;=(i(\Delta -g_0\bar x)-\kappa/2-ig_0\delta x)(\bar a+\delta a)+\sqrt{\kappa_{ex}}\bar s_{in}\\<br>&amp;=(i(\Delta-g_0\bar x)-\kappa/2)\delta a-ig_0\bar a\delta x+\sqrt{\kappa_{ex}}\delta s_p e^{-i(\omega_p-\omega_c)t}\\<br>&amp;=(i\bar \Delta -\kappa/2)\delta a-ig_0\bar a\delta x+\sqrt{\kappa_{ex}}\delta s_p e^{-i\Delta_m t}<br>\end{aligned}$$</p>
+<p>$$\begin{aligned}<br>m_{eff}\ddot{\delta x}&amp;=-m_{eff}\Omega_m^2(\bar x+\delta x)-\hbar g_0(\bar a^\dagger +\delta a^\dagger)(\bar a+\delta a)-\Gamma_mm_{eff}\dot{\delta x}\\<br>&amp;=-m_{eff}\Omega_m^2\delta x-\Gamma_mm_{eff}\dot{\delta x}-\hbar g_0 (\delta a \bar a^\dagger + \bar a\delta a^\dagger)<br>\end{aligned}$$<br>为解此方程组，我们假设解的形式为<br>$$<br>\begin{aligned}<br>&amp;\delta a=A^-e^{-i\Delta_m t}+A^+e^{i\Delta_m t}\\<br>&amp;\delta a^\dagger =A^{+\dagger}e^{-i\Delta _m t}+A^{-\dagger}e^{i\Delta_m t}\\<br>&amp;\delta x=X e^{-i\Delta_m t}+X^\dagger e^{i\Delta_m t}<br>\end{aligned}<br>$$<br>由于上式是在控制光中考虑的，而我们要考虑的是泵浦光频率的分量，所以我们只用考虑上式中$A^-$的分量，因为前面方程中的泵浦项的$\delta s_p$的相位为$-i\Delta_m t$。代入运动方程，得到等式<br>$$<br>\begin{aligned}<br>&amp;A^- \left(\kappa/2-i \left(\bar \Delta +\Delta _m\right)\right)=\sqrt{\kappa _{\text{ex}}} \delta s_p-i \bar a g_0 X\\<br>&amp;A^{+\dagger}\left(\kappa/2+i\left(\bar \Delta -\Delta_m\right)\right)=i \bar a^\dagger g_0 X\\<br>&amp;X \left(\Omega _m^2-\Delta _m^2-i \Gamma _m \Delta _m\right)=-\frac{\hbar g_0}{m_{\text{eff}}}\left(\bar a^\dagger A^-+\bar a A^{+\dagger}\right)<br>\end{aligned}$$<br>从而解出<br>$$<br>A^-=\frac{1+if}{\kappa/2-i(\bar \Delta+\Delta_m)+2f\bar \Delta}\sqrt{\kappa_{ex}}\delta s_p<br>$$</p>
 ]]></content>
     
     <summary type="html">
@@ -68,7 +81,7 @@
     <link href="http://thuxuxs.github.io/2016/11/28/BSIT/"/>
     <id>http://thuxuxs.github.io/2016/11/28/BSIT/</id>
     <published>2016-11-29T04:54:12.000Z</published>
-    <updated>2016-12-02T22:09:10.000Z</updated>
+    <updated>2016-12-03T03:39:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>介绍布里渊诱导透明(BSIT)<br><a id="more"></a></p>
 <h1 id="布里渊诱导透明"><a href="#布里渊诱导透明" class="headerlink" title="布里渊诱导透明"></a>布里渊诱导透明</h1><p><img src="/img/BSIT.jpeg" alt="布里渊诱导透明--反斯托克斯"></p>
