@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://thuxuxs.github.io/"/>
-  <updated>2016-12-06T06:43:51.000Z</updated>
+  <updated>2016-12-06T07:00:21.000Z</updated>
   <id>http://thuxuxs.github.io/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Machine Learning算法</title>
+    <link href="http://thuxuxs.github.io/2016/12/05/Machine-Learning%E7%AE%97%E6%B3%95/"/>
+    <id>http://thuxuxs.github.io/2016/12/05/Machine-Learning算法/</id>
+    <published>2016-12-06T06:57:45.000Z</published>
+    <updated>2016-12-06T07:00:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里做个总结，对每个算法单独写<br><a id="more"></a></p>
+<ul>
+<li>线性回归</li>
+<li>逻辑回归</li>
+<li>决策树</li>
+<li>支持向量机</li>
+<li>朴素贝叶斯</li>
+<li>KNN算法</li>
+<li>K平均数算法</li>
+<li>随机森林</li>
+<li>将维算法</li>
+<li>Adaboost算法</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这里做个总结，对每个算法单独写&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Machine Learning" scheme="http://thuxuxs.github.io/tags/Machine-Learning/"/>
+    
+  </entry>
   
   <entry>
     <title>Python类的内置函数</title>
