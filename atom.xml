@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://thuxuxs.github.io/"/>
-  <updated>2016-12-04T08:42:42.000Z</updated>
+  <updated>2016-12-06T06:21:40.000Z</updated>
   <id>http://thuxuxs.github.io/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python类的内置函数</title>
+    <link href="http://thuxuxs.github.io/2016/12/05/Python%E7%B1%BB%E7%9A%84%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0/"/>
+    <id>http://thuxuxs.github.io/2016/12/05/Python类的内置函数/</id>
+    <published>2016-12-06T06:18:42.000Z</published>
+    <updated>2016-12-06T06:21:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>文本将介绍一些<code>Python</code>类中的一些内部函数<br><a id="more"></a></p>
+<ol>
+<li><code>object</code></li>
+<li><code>__new__</code></li>
+<li><code>__getitem__</code></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;文本将介绍一些&lt;code&gt;Python&lt;/code&gt;类中的一些内部函数&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://thuxuxs.github.io/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>OMIT</title>
