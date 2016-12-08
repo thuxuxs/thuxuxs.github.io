@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://thuxuxs.github.io/"/>
-  <updated>2016-12-08T07:04:54.000Z</updated>
+  <updated>2016-12-08T07:08:49.000Z</updated>
   <id>http://thuxuxs.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://thuxuxs.github.io/2016/12/07/%E7%90%86%E8%A7%A3Python%E4%B8%AD%E7%9A%84with-as-%E8%AF%AD%E6%B3%95-%E8%BD%AC%E8%BD%BD/"/>
     <id>http://thuxuxs.github.io/2016/12/07/理解Python中的with-as-语法-转载/</id>
     <published>2016-12-08T06:57:10.000Z</published>
-    <updated>2016-12-08T07:04:54.000Z</updated>
+    <updated>2016-12-08T07:08:49.000Z</updated>
     
     <content type="html"><![CDATA[<p>本文转载自<a href="http://zhoutall.com/archives/325" target="_blank" rel="external">http://zhoutall.com/archives/325</a><br><a id="more"></a></p>
 <p>使用语言的好特性，而不是那些糟糕的特性————不知道谁说的</p>
@@ -51,7 +51,9 @@
     </summary>
     
     
-      <category term="Python;zz" scheme="http://thuxuxs.github.io/tags/Python-zz/"/>
+      <category term="Python" scheme="http://thuxuxs.github.io/tags/Python/"/>
+    
+      <category term="zz" scheme="http://thuxuxs.github.io/tags/zz/"/>
     
   </entry>
   
