@@ -122,12 +122,16 @@ div {
       #sidebar .widget .tagcloud a {
         line-height: 1.5;
         padding: 5px; }
+      #sidebar .widget .tagcloud a:hover {
+        color: #da1662;
+        font-weight: bolder; }
     #sidebar .widget ul {
       list-style: none;
       padding: 0; }
       #sidebar .widget ul li {
         margin: 5px 0;
-        line-height: 1.5; }
+        line-height: 2;
+        border-bottom: dashed 1px #292f44; }
     #sidebar .widget .category-list-count {
       padding-left: 5px;
       color: #6E7173; }
