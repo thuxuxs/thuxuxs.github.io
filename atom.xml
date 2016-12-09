@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://thuxuxs.github.io/"/>
-  <updated>2016-12-09T17:37:36.000Z</updated>
+  <updated>2016-12-09T18:05:37.000Z</updated>
   <id>http://thuxuxs.github.io/</id>
   
   <author>
@@ -20,14 +20,15 @@
     <link href="http://thuxuxs.github.io/2016/12/09/%E5%8F%8C%E8%85%94%E8%80%A6%E5%90%88/"/>
     <id>http://thuxuxs.github.io/2016/12/09/双腔耦合/</id>
     <published>2016-12-09T17:37:21.000Z</published>
-    <updated>2016-12-09T17:37:36.000Z</updated>
+    <updated>2016-12-09T18:05:37.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="双腔耦合"><a href="#双腔耦合" class="headerlink" title="双腔耦合"></a>双腔耦合</h1><p>$$H=\hbar \omega_1a_1^\dagger a_1+\hbar \omega_2 a^\dagger_2 a_2+\hbar g(a_1^\dagger a_2 +a_1 a_2^\dagger)+i\hbar \sqrt{\kappa_{1,ex}}s_{in}(a_1^\dagger e^{-i\omega_l t}-a_1 e^{i\omega_l t})$$<br>选择变换$U=\exp(i\omega_l a_1^\dagger a t+i\omega_l a_2^\dagger a_2 t)$<br>得到新哈密顿量为<br>$$H=-\hbar \Delta_1 a_1^\dagger a_1-\hbar \Delta_2 a^\dagger_2 a_2+\hbar g(a_1^\dagger a_2+a_1 a_2^\dagger)+i\hbar \sqrt{\kappa_{ex,1}}s_{in}(a_1^\dagger-a_1)$$<br>其中$\Delta_1=\omega_l-\omega_1,\Delta_2=\omega_l-\omega_2$，写出运动方程<br>$$<br>\begin{aligned}<br>\frac{da_1}{dt}&amp;=i\Delta_1a_1-\frac{\kappa_1}{2}a_1-iga_2+\sqrt{\kappa_{ex,1}}s_{in}\\<br>\frac{da_2}{dt}&amp;=i\Delta_2 a_2-\frac{\kappa_2}{2}a_2-iga_1<br>\end{aligned}<br>$$<br>在稳态下即个导数为零的时候求解方程，得到<br>$$<br>\begin{aligned}<br>&amp;\left(\Delta_1+i\frac{\kappa_1}{2}\right)a_1-ga_2=i\sqrt{\kappa_{ex,1}}s_{in}\\<br>&amp;\left(\Delta_2+i\frac{\kappa_2}{2}\right)a_2-ga_1=0<br>\end{aligned}$$<br>解得<br>$$<br>a_1=\frac{2is_{in}\sqrt{\kappa_{ex,1}}}{(2\Delta_1+i\kappa_1)-\frac{4g^2}{2\Delta_2+i\kappa_2}}<br>$$<br>计算输出谱<br>$$<br>\begin{aligned}<br>t&amp;=\frac{s_{out}}{s_{in}}\\<br>&amp;=\frac{s_{in}-\sqrt{\kappa_{ex,1}}a_1}{s_{in}}\\<br>&amp;=1-\frac{2i\kappa_{ex,1}}{(2\Delta_1+i\kappa_1)-\frac{4g^2}{2\Delta_2+i\kappa_2}}\\<br>&amp;=1-\frac{1}{(\frac{\kappa_1}{2\kappa_{ex,1}}-i\frac{\Delta_1}{\kappa_{ex,1}})+\frac{g^2/\kappa_{ex,1}^2}{\frac{\kappa_2}{2\kappa_{ex,1}}-i\frac{\Delta_2}{\kappa_{ex,1}}}}<br>\end{aligned}<br>$$</p>
+    <content type="html"><![CDATA[<p>这里是两个腔相互耦合，其中一个腔与锥型光纤耦合<br><a id="more"></a></p>
+<h1 id="双腔耦合"><a href="#双腔耦合" class="headerlink" title="双腔耦合"></a>双腔耦合</h1><p>$$H=\hbar \omega_1a_1^\dagger a_1+\hbar \omega_2 a^\dagger_2 a_2+\hbar g(a_1^\dagger a_2 +a_1 a_2^\dagger)+i\hbar \sqrt{\kappa_{1,ex}}s_{in}(a_1^\dagger e^{-i\omega_l t}-a_1 e^{i\omega_l t})$$<br>选择变换$U=\exp(i\omega_l a_1^\dagger a t+i\omega_l a_2^\dagger a_2 t)$<br>得到新哈密顿量为<br>$$H=-\hbar \Delta_1 a_1^\dagger a_1-\hbar \Delta_2 a^\dagger_2 a_2+\hbar g(a_1^\dagger a_2+a_1 a_2^\dagger)+i\hbar \sqrt{\kappa_{ex,1}}s_{in}(a_1^\dagger-a_1)$$<br>其中$\Delta_1=\omega_l-\omega_1,\Delta_2=\omega_l-\omega_2$，写出运动方程<br>$$<br>\begin{aligned}<br>\frac{da_1}{dt}&amp;=i\Delta_1a_1-\frac{\kappa_1}{2}a_1-iga_2+\sqrt{\kappa_{ex,1}}s_{in}\\<br>\frac{da_2}{dt}&amp;=i\Delta_2 a_2-\frac{\kappa_2}{2}a_2-iga_1<br>\end{aligned}<br>$$<br>在稳态下即个导数为零的时候求解方程，得到<br>$$<br>\begin{aligned}<br>&amp;\left(\Delta_1+i\frac{\kappa_1}{2}\right)a_1-ga_2=i\sqrt{\kappa_{ex,1}}s_{in}\\<br>&amp;\left(\Delta_2+i\frac{\kappa_2}{2}\right)a_2-ga_1=0<br>\end{aligned}$$<br>解得<br>$$<br>a_1=\frac{2is_{in}\sqrt{\kappa_{ex,1}}}{(2\Delta_1+i\kappa_1)-\frac{4g^2}{2\Delta_2+i\kappa_2}}<br>$$<br>计算输出谱<br>$$<br>\begin{aligned}<br>t&amp;=\frac{s_{out}}{s_{in}}\\<br>&amp;=\frac{s_{in}-\sqrt{\kappa_{ex,1}}a_1}{s_{in}}\\<br>&amp;=1-\frac{2i\kappa_{ex,1}}{(2\Delta_1+i\kappa_1)-\frac{4g^2}{2\Delta_2+i\kappa_2}}\\<br>&amp;=1-\frac{1}{(\frac{\kappa_1}{2\kappa_{ex,1}}-i\frac{\Delta_1}{\kappa_{ex,1}})+\frac{g^2/\kappa_{ex,1}^2}{\frac{\kappa_2}{2\kappa_{ex,1}}-i\frac{\Delta_2}{\kappa_{ex,1}}}}<br>\end{aligned}<br>$$</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;双腔耦合&quot;&gt;&lt;a href=&quot;#双腔耦合&quot; class=&quot;headerlink&quot; title=&quot;双腔耦合&quot;&gt;&lt;/a&gt;双腔耦合&lt;/h1&gt;&lt;p&gt;$$H=\hbar \omega_1a_1^\dagger a_1+\hbar \omega_2 a^\dagger_2 a
+      &lt;p&gt;这里是两个腔相互耦合，其中一个腔与锥型光纤耦合&lt;br&gt;
     
     </summary>
     
