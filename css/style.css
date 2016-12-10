@@ -67,9 +67,9 @@ div {
       overflow: hidden; }
     #header .site-name #logo {
       font: bold 38px/1.12 "Times New Roman", Georgia, Times, sans-serif;
-      color: #555; }
+      color: #E78071; }
       #header .site-name #logo span, #header .site-name #logo:hover {
-        color: #777; }
+        color: #7692A2; }
     #header .site-name .description {
       margin: .2em 0 0;
       color: #999; }
@@ -83,7 +83,7 @@ div {
       display: inline-block;
       padding: 3px 20px 3px;
       line-height: 30px;
-      color: #444;
+      color: #555;
       font-size: 13px;
       border: 1px solid transparent;
       border-bottom: 3px solid transparent;
@@ -93,7 +93,7 @@ div {
       #header #nav-menu a:hover {
         filter: drop-shadow(0px 3px 1px #a8b5a8);
         color: white;
-        background-color: #555;
+        background-color: #204459;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
         border-bottom-left-radius: 15px;
