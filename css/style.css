@@ -87,12 +87,17 @@ div {
       font-size: 13px;
       border: 1px solid transparent;
       border-bottom: 3px solid transparent;
-      -webkit-transition: 0.2s ease all; }
+      -webkit-transition: 0.2s ease all;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px; }
       #header #nav-menu a:hover {
-        filter: drop-shadow(0px 5px 2px #2f251b);
+        filter: drop-shadow(0px 3px 1px #a8b5a8);
         color: white;
         background-color: #555;
-        -webkit-transform: scale(1, 1.1); }
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px; }
 
 #sidebar {
   border-left: 1px solid #ddd;
