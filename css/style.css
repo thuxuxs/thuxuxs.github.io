@@ -17,8 +17,8 @@ html, button, input, select, textarea,
   font-family: "PingFangSC-Regular", Helvetica, "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif; }
 
 body {
-  background-color: #FFF;
-  color: #444;
+  background-color: #becccc;
+  color: #222;
   font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -34,7 +34,7 @@ body {
   padding-top: 20px; }
 
 a, button.submit {
-  color: #6E7173;
+  color: #333;
   text-decoration: none;
   -webkit-transition: all .1s ease-in;
   -moz-transition: all .1s ease-in;
@@ -66,8 +66,13 @@ div {
       height: 0;
       overflow: hidden; }
     #header .site-name #logo {
-      font: bold 38px/1.12 "Times New Roman", Georgia, Times, sans-serif;
-      color: #E78071; }
+      font: 900 100px/1 'Source Sans Pro', Arial, sans-serif;
+      color: #fff;
+      text-transform: uppercase;
+      padding-left: 3%;
+      padding-right: 3%;
+      background-color: #becccc;
+      text-shadow: 0 1px 0 #c9cfce, 0 2px 0 #bcc2c2, 0 3px 0 #afb6b6, 0 4px 0 #a4adac, 0 5px 0 #9fa8a7, 0 6px 0 #99a3a2, 0 7px 0 #97a1a0, 0 8px 0 #949e9d, 0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3); }
       #header .site-name #logo span, #header .site-name #logo:hover {
         color: #7692A2; }
     #header .site-name .description {
@@ -108,7 +113,7 @@ div {
   #sidebar .widget {
     margin-bottom: 30px; }
     #sidebar .widget .widget-title {
-      color: #6E7173;
+      color: #333;
       line-height: 2.7;
       margin-top: 0;
       font-size: 16px;
@@ -116,7 +121,7 @@ div {
       display: block;
       font-weight: normal; }
     #sidebar .widget .comments-title {
-      color: #6E7173;
+      color: #333;
       line-height: 2.7;
       margin-top: 0;
       font-size: 16px;
@@ -140,7 +145,7 @@ div {
         border-bottom: dashed 1px #292f44; }
     #sidebar .widget .category-list-count {
       padding-left: 5px;
-      color: #6E7173; }
+      color: #333; }
     #sidebar .widget .category-list-count:before {
       content: "("; }
     #sidebar .widget .category-list-count:after {
@@ -182,7 +187,7 @@ div {
   .post .post-meta {
     padding: 0;
     margin: 15px 0 0;
-    color: #6E7173;
+    color: #333;
     float: left;
     display: inline;
     text-indent: .15em; }
@@ -201,7 +206,7 @@ div {
   .post .ds-thread-count {
     padding: 0;
     margin: 15px 0 0;
-    color: #6E7173;
+    color: #333;
     float: right;
     display: inline;
     text-indent: .15em; }
@@ -214,7 +219,7 @@ div {
   .post .disqus-comment-count {
     padding: 0;
     margin: 15px 0 0;
-    color: #6E7173;
+    color: #333;
     float: right;
     display: inline;
     text-indent: .15em; }
@@ -343,7 +348,7 @@ div {
   padding: .8em 0 3.6em;
   margin-top: 1em;
   line-height: 2.5;
-  color: #6E7173;
+  color: #333;
   text-align: center; }
   #footer span {
     font-size: .9em; }
