@@ -68,7 +68,6 @@ div {
     #header .site-name #logo {
       font: 900 5em 'Source Sans Pro', Arial, sans-serif;
       color: #aabdc8;
-      filter: blur(0.4px);
       text-transform: uppercase;
       padding-left: 3%;
       padding-right: 3%;
