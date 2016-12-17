@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://thuxuxs.github.io/"/>
-  <updated>2016-12-13T03:47:05.000Z</updated>
+  <updated>2016-12-17T07:15:57.000Z</updated>
   <id>http://thuxuxs.github.io/</id>
   
   <author>
@@ -16,11 +16,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>郎之万方程</title>
+    <link href="http://thuxuxs.github.io/2016/12/16/%E9%83%8E%E4%B9%8B%E4%B8%87%E6%96%B9%E7%A8%8B/"/>
+    <id>http://thuxuxs.github.io/2016/12/16/郎之万方程/</id>
+    <published>2016-12-16T20:55:03.000Z</published>
+    <updated>2016-12-17T07:15:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>介绍郎之万运动及其数值模拟<br><a id="more"></a></p>
+<h2 id="理论分析"><a href="#理论分析" class="headerlink" title="理论分析"></a>理论分析</h2><p>布朗粒子在液体中会受到液体分子的随机碰撞而产生随机运动，以一维粒子为例<br>$$<br>\begin{aligned}<br>m\frac{dv}{dt}&amp;=K(t)\\<br>&amp;=-\gamma_0v+F_0(t)<br>\end{aligned}<br>$$<br>其中$-\gamma_0v$是与速度相关的摩擦力，$F_0(t)$是粒子收到碰撞的随机力，其作用时间非常短，我们可以假设为一$\delta$函数形式，冲击力对所有冲击取平均值应该为零，而不同时间点的冲击力相乘应该是无关的，所以$F_0(t)$应该满足如下形式<br>$$\overline{F_0(t)}=0,\overline{F_0(t)F_0(t’)}=c\delta(t-t’)$$<br>那么我们把布朗运动简化为郎之万方程<br>$$<br>\begin{aligned}<br>&amp;\frac{dv}{dt}=-\gamma v+F(t)\\<br>&amp;\overline{F(t)}=0\\<br>&amp;\overline{F(t)F(t’)}=Q\delta(t-t’)<br>\end{aligned}$$<br>方程的形式解为<br>$$v(t)=\int_0^t\exp[-\gamma(t-\tau)]F(\tau)d\tau+v(0)\exp[-\gamma t]$$<br>考虑足够长的时间，则上式最后一项实际上为零，所以后面我们都只考虑上式右边的第一项，也即考虑足够长的时间<br>由于碰撞时随机的，显然速度的平均值应当为零，$\overline{v(t)}=0$，但这并不会给我们提供什么有用的信息，所以我们要考虑速度大小的平均值，我们计算<br>$$<br>\overline{v(t)v(t’)}<br>$$<br>显然考虑极端情况，当$t$和$t’$相隔很远的时候，他们俩的速度之间没有任何关联，所以<br>$$<br>\overline{v(t)v(t’)}=\overline{v(t)}\overline{v(t’)}=0<br>$$<br>但在一半情况下呢？我们计算<br>$$<br>\begin{aligned}<br>\overline{v(t)v(t’)}&amp;=\overline{\int_0^t\int_0^{t’}\exp[-\gamma(t-\tau)]F(\tau)d\tau\exp[-\gamma(t’-\tau’)]F(\tau’)d\tau’}\\<br>&amp;=\int_0^t\int_0^{t’}\exp[-\gamma(t-\tau)]\exp[-\gamma(t’-\tau’)]\overline{F(\tau)F(\tau’)}d\tau d\tau’\\<br>&amp;=Q\int_0^t\exp[-\gamma(t+t’)+2\gamma \tau]d\tau\\<br>&amp;=\frac{Q}{2\gamma}\left\{\exp[\gamma(t-t’)]-\exp[-\gamma(t+t’)]\right\}<br>\end{aligned}<br>$$<br>任然考虑足够长时间，所以有不同时刻的关联度为<br>$$\overline{v(t)v(t’)}=\frac{Q}{2\gamma}\exp[\gamma(t-t’)]$$<br>只与所考虑的时间差有关，且与时间差呈指数下降趋势。</p>
+<h2 id="数值模拟"><a href="#数值模拟" class="headerlink" title="数值模拟"></a>数值模拟</h2><p>首先我们要进行计算的方程为<br>$$<br>\begin{aligned}<br>\frac{dv}{dt}&amp;=-\gamma v+F(t)\\<br>&amp;=-\gamma v+\sqrt{Q}N(0,1)<br>\end{aligned}$$<br>我们这里设随机力为强度为$\sqrt{Q}$的$0~1$正态分布，显然满足平均值为零，对于关联度我们有<br>$$\begin{aligned}<br>\overline{F(t)F(t’)}&amp;=Q\overline{N_t(0,1)N_{t’}(0,1)}\\<br>&amp;=Q\overline{N^2(0,1)}\delta(t-t’)\\<br>&amp;=Q\delta(t-t’)<br>\end{aligned}$$<br>我们可以解释为，当$t\neq t’$时，两个正态分布无关，那么乘积的平均等于平均的乘积即为零，当$t=t’$时，我们计算的是正态分布平方的平均值，肯定不为零。求解这个随机微分方程(SDE)我们需要用到<a href="https://zh.wikipedia.org/wiki/%E6%AC%A7%E6%8B%89-%E4%B8%B8%E5%B1%B1%E6%B3%95?oldformat=true" target="_blank" rel="external">欧拉-丸山法</a>，具体来讲是要讲方程变形为<br>$$\begin{aligned}<br>\frac{dv}{dt}&amp;=-\gamma v+F(t)\\<br>&amp;=-\gamma v+\sqrt{Q}\frac{dW(t)}{dt}\\<br>dv&amp;=-\gamma vdt+\sqrt{Q}dW(t)<br>\end{aligned}$$<br>而对于$dt$时间段内，$dW(t)$是一个<a href="https://zh.wikipedia.org/zh-hans/%E7%BB%B4%E7%BA%B3%E8%BF%87%E7%A8%8B?oldformat=true" target="_blank" rel="external">维纳过程</a>，满足$dW=W_j-W_i$服从$N(0,j-i)$的正态分布，即平均值为零，方差为$j-i$</p>
+<blockquote>
+<p>注意，在<code>python</code>科学计算包中，正态分布函数<code>numpy.random.normal(loc,scale)</code>中，<code>loc</code>为平均值，<code>scale</code>为<strong>标准差</strong></p>
+</blockquote>
+<p>所以在我们数值计算的$dt$过程中，$dW$满足的是平均数为$0$，方差为$dt$（标准差为$\sqrt{dt}$）的正态分布。所以我们利用差分的方法可以计算得到<br>$$v_{i+1}=-\gamma v_i dt+\sqrt{Q}N(0,dt)+v_i$$<br>有了这个递推公式，代码就很简单了<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> pylab <span class="keyword">import</span> *</div><div class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</div><div class="line"><span class="keyword">from</span> scipy.integrate <span class="keyword">import</span> ode</div><div class="line"></div><div class="line">n=<span class="number">6000</span> <span class="comment">#total steps</span></div><div class="line">t=linspace(<span class="number">0</span>,<span class="number">80</span>,n) <span class="comment">#total time</span></div><div class="line">ini=<span class="number">0.</span> <span class="comment">#initial velocity</span></div><div class="line">gamma=<span class="number">10.</span> <span class="comment">#decay rate</span></div><div class="line">Q=<span class="number">8.</span> <span class="comment">#square of force</span></div><div class="line">dt=t[<span class="number">1</span>]-t[<span class="number">0</span>] <span class="comment">#time distance</span></div><div class="line">v=[ini] <span class="comment"># velocity list</span></div><div class="line"></div><div class="line"><span class="comment">#Be careful of normal(loc,scale), scale is Standard Deviation,</span></div><div class="line"><span class="comment">#so we use sqrt(dt) here</span></div><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(len(t)<span class="number">-1</span>):</div><div class="line">    v.append(-gamma*v[<span class="number">-1</span>]*dt+sqrt(Q)*np.random.normal(<span class="number">0</span>,sqrt(dt))+v[<span class="number">-1</span>])</div><div class="line">subplot(<span class="number">311</span>)</div><div class="line">plot(t,v)</div><div class="line">title(<span class="string">'velocity'</span>)</div><div class="line"></div><div class="line"><span class="comment">#here we chose a window, which is a peice of data,</span></div><div class="line"><span class="comment">#to calculate the mean value of velocity and square of velocity</span></div><div class="line">window_width=int(n/<span class="number">10</span>)</div><div class="line"><span class="comment">#mean value of velocity</span></div><div class="line">subplot(<span class="number">312</span>)</div><div class="line">plot([mean(v[i:i+window_width<span class="number">-1</span>]) <span class="keyword">for</span> i <span class="keyword">in</span> range(n-window_width)])</div><div class="line">title(<span class="string">'mean of velocity'</span>)</div><div class="line"></div><div class="line"><span class="comment">#mean value of square of velocity</span></div><div class="line">subplot(<span class="number">313</span>)</div><div class="line">plot([mean(np.power(v[i:i+window_width<span class="number">-1</span>],<span class="number">2</span>)) <span class="keyword">for</span> i <span class="keyword">in</span> range(n-window_width)])</div><div class="line">title(<span class="string">'mean of velocity square, should be around '</span>+str(Q/<span class="number">2.</span>/gamma))</div><div class="line">show()</div></pre></td></tr></table></figure></p>
+<p><img src="/img/rand_walk.png" alt="rand_walk"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;介绍郎之万运动及其数值模拟&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+    
+  </entry>
+  
+  <entry>
     <title>两个光学模式与一个力学模式的耦合</title>
     <link href="http://thuxuxs.github.io/2016/12/10/%E4%B8%A4%E4%B8%AA%E5%85%89%E5%AD%A6%E6%A8%A1%E5%BC%8F%E4%B8%8E%E4%B8%80%E4%B8%AA%E5%8A%9B%E5%AD%A6%E6%A8%A1%E5%BC%8F%E7%9A%84%E8%80%A6%E5%90%88/"/>
     <id>http://thuxuxs.github.io/2016/12/10/两个光学模式与一个力学模式的耦合/</id>
     <published>2016-12-10T21:32:46.000Z</published>
-    <updated>2016-12-13T03:47:05.000Z</updated>
+    <updated>2016-12-17T07:13:13.000Z</updated>
     
     <content type="html"><![CDATA[<p>这篇文章将介绍微腔系统中的两个光学模式和同一个布里渊力学模式之间的耦合<br><a id="more"></a></p>
 <h1 id="基本方程"><a href="#基本方程" class="headerlink" title="基本方程"></a>基本方程</h1><p><img src="/img/t2o.svg" alt="基本示意图"><br>$$<br>\begin{aligned}<br>H&amp;=\hbar\omega_1 a^\dagger_1 a_1+\hbar\omega_2 a^\dagger_2 a_2+\hbar\Omega_m b^\dagger b+\hbar g(a^\dagger_1 b^\dagger a_2+a_1 b a^\dagger_2)\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,1}}s_{in,1}(a^\dagger_1 e^{-i\omega_{c1} t}-a_1 e^{i\omega_{c1} t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,2}}s_{in,2}(a^\dagger_2 e^{-i\omega_{c2} t}-a_2 e^{i\omega_{c2} t})<br>\end{aligned}<br>$$<br>采取变换$U=\exp{(i\omega_{c1}a_1^\dagger a_1 t+i\omega_{c2}a_2^\dagger a_2 t+i(\omega_{c2}-\omega_{c1})b^\dagger b t})$<br>最后得到的新哈密顿量为<br>$$\begin{aligned}<br>H&amp;=-\hbar\Delta_1a_1^\dagger a_1-\hbar \Delta_2 a_2^\dagger a_2-\hbar (\omega_{c2}-\omega_{c1}-\Omega_m)b^\dagger b\\<br>&amp;+\hbar g(a_1^\dagger b^\dagger a_2+a_1 b a_2^\dagger)\\<br>&amp;+i\hbar\sqrt{\kappa_{ex,1}}s_{in,1}(a_1^\dagger-a_1)\\<br>&amp;+i\hbar \sqrt{\kappa_{ex,2}}s_{in,2}(a_2^\dagger-a_2)<br>\end{aligned}$$<br>设$\Delta_1=\omega_{c1}-\omega_1,\Delta_2=\omega_{c2}-\omega_2,\Delta_m=\omega_{c2}-\omega_{c1}-\Omega_m$</p>
@@ -110,7 +138,7 @@
     <link href="http://thuxuxs.github.io/2016/12/05/Machine-Learning%E7%AE%97%E6%B3%95/"/>
     <id>http://thuxuxs.github.io/2016/12/05/Machine-Learning算法/</id>
     <published>2016-12-06T06:57:45.000Z</published>
-    <updated>2016-12-06T07:00:21.000Z</updated>
+    <updated>2016-12-15T18:31:43.000Z</updated>
     
     <content type="html"><![CDATA[<p>这里做个总结，对每个算法单独写<br><a id="more"></a></p>
 <ul>
@@ -259,7 +287,7 @@
     <link href="http://thuxuxs.github.io/2016/11/28/BSIT/"/>
     <id>http://thuxuxs.github.io/2016/11/28/BSIT/</id>
     <published>2016-11-29T04:54:12.000Z</published>
-    <updated>2016-12-10T21:39:56.000Z</updated>
+    <updated>2016-12-17T07:15:31.000Z</updated>
     
     <content type="html"><![CDATA[<p>介绍布里渊诱导透明(BSIT)<br><a id="more"></a></p>
 <h1 id="布里渊诱导透明"><a href="#布里渊诱导透明" class="headerlink" title="布里渊诱导透明"></a>布里渊诱导透明</h1><p><a href="http://www.nature.com/nphys/journal/v11/n3/abs/nphys3236.html" target="_blank" rel="external"><code>Kim J H, Kuzyk M C, Han K, et al. Non-reciprocal Brillouin scattering induced transparency[J]. Nature Physics, 2015, 11(3): 275-280.</code></a><br><img src="/img/BSIT.jpeg" alt="布里渊诱导透明--反斯托克斯"></p>
