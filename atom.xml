@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://thuxuxs.github.io/"/>
-  <updated>2017-01-02T23:26:52.000Z</updated>
+  <updated>2017-02-13T21:31:54.000Z</updated>
   <id>http://thuxuxs.github.io/</id>
   
   <author>
@@ -14,6 +14,482 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设计资源</title>
+    <link href="http://thuxuxs.github.io/2017/02/13/%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%BA%90/"/>
+    <id>http://thuxuxs.github.io/2017/02/13/设计资源/</id>
+    <published>2017-02-13T21:30:11.000Z</published>
+    <updated>2017-02-13T21:31:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一些有用的设计资源<br><a id="more"></a></p>
+<h1 id="awesome-design-cn"><a href="#awesome-design-cn" class="headerlink" title="awesome-design-cn"></a>awesome-design-cn</h1><p>设计师资源大全由<a href="http://www.jobbole.com" target="_blank" rel="external">伯乐在线</a>资源频道综合整理。目前已收录 340+ 设计类资源，包含：<a href="http://hao.jobbole.com/category/design/icon-design/" target="_blank" rel="external">ICON图标</a>、<a href="http://hao.jobbole.com/category/design/logo-design/" target="_blank" rel="external">Logo设计</a>、<a href="http://hao.jobbole.com/category/design/photoshop-plug-in/" target="_blank" rel="external">PhotoShop插件</a>、<a href="http://hao.jobbole.com/category/design/interactive-design-tools/" target="_blank" rel="external">交互设计工具</a>、<a href="http://hao.jobbole.com/category/design/flow-chart/" target="_blank" rel="external">流程图</a>、<a href="http://hao.jobbole.com/category/design/design-wireframe/" target="_blank" rel="external">线框图/原型图</a>、<a href="http://hao.jobbole.com/category/design/design-blog/" target="_blank" rel="external">设计博客</a>、<a href="http://hao.jobbole.com/category/design/design-tools-design/" target="_blank" rel="external">设计工具</a><a href="http://hao.jobbole.com/category/design/design-guide/" target="_blank" rel="external">设计教程</a>、<a href="http://hao.jobbole.com/category/design/design-sucai/" target="_blank" rel="external">设计素材</a>、<a href="http://hao.jobbole.com/category/design/design-color/" target="_blank" rel="external">配色方案</a>、<a href="http://hao.jobbole.com/category/design/design-photo/" target="_blank" rel="external">高清图库</a>等等。</p>
+<h2 id="如何加入我们？"><a href="#如何加入我们？" class="headerlink" title="如何加入我们？"></a>如何加入我们？</h2><p>非常期待能有更多朋友一起来参与。加入前，有几个小要求：</p>
+<ul>
+<li>对设计感兴趣，如果在从事这方面工作更好；</li>
+<li>如果您的英文还不错，那也非常好啦；（这个不强制要求）</li>
+</ul>
+<p>如有兴趣，请加 QQ：191250436。加 Q 时请注明「设计资源」</p>
+<p><strong>我们还在翻译国外的优秀设计文章，如果您有一定的设计背景和英文基础，欢迎<a href="http://group.jobbole.com/category/feedback/trans-team/" target="_blank" rel="external">从这里申请加入我们</a>。</strong></p>
+<h2 id="本项目的参与者"><a href="#本项目的参与者" class="headerlink" title="本项目的参与者"></a>本项目的参与者</h2><p>ㄨiaǒ偉、shanlijie001、rose、梦熙、布洛、</p>
+<p>注：名单不分排名，不定期补充更新</p>
+<h2 id="奖励计划"><a href="#奖励计划" class="headerlink" title="奖励计划"></a>奖励计划</h2><p>虽然奖励可能并不是你加入的主要原因，但还是有必要提一下：</p>
+<ul>
+<li>整理超过 20 个资源后，可在伯乐在线上开通打赏；</li>
+<li>每整理 20 个资源，有机会获得技术书籍或各种有意思的创意、极客产品；</li>
+<li><a href="http://hao.jobbole.com/rewards/" target="_blank" rel="external">奖励详情</a></li>
+</ul>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><h3 id="ICON图标"><a href="#ICON图标" class="headerlink" title="ICON图标"></a>ICON图标</h3><ul>
+<li><a href="http://hao.jobbole.com/fontello/" target="_blank" rel="external">Fontello</a>：图标字体生成器</li>
+<li><a href="http://hao.jobbole.com/the-noun-project/" target="_blank" rel="external">The Noun Project</a>：免费提供高度可辨识符号图标</li>
+<li><a href="http://hao.jobbole.com/iconarchive/" target="_blank" rel="external">IconArchive</a>：专业图标搜索引擎</li>
+<li><a href="http://hao.jobbole.com/iconify/" target="_blank" rel="external">iConify</a>：Mac平台的苹果应用图标自动化生成工具</li>
+<li><a href="http://hao.jobbole.com/iconbench/" target="_blank" rel="external">Iconbench</a>：在线ICON素材图标制作工具</li>
+<li><a href="http://hao.jobbole.com/easyicon/" target="_blank" rel="external">EasyIcon</a>：免费图标搜索和下载平台</li>
+<li><a href="http://hao.jobbole.com/icon-deposit/" target="_blank" rel="external">Icon Deposit</a>：一个奇妙的图标下载站</li>
+</ul>
+<h3 id="Logo-设计"><a href="#Logo-设计" class="headerlink" title="Logo 设计"></a>Logo 设计</h3><ul>
+<li><a href="http://hao.jobbole.com/logaster/" target="_blank" rel="external">Logaster</a>：教你在线几分钟内搞定专业的LOGO设计</li>
+<li><a href="http://hao.jobbole.com/logolounge/" target="_blank" rel="external">LogoLounge</a>：国际知名的LOGO设计权威网站</li>
+<li><a href="http://hao.jobbole.com/logomoose/" target="_blank" rel="external">LogoMoose</a>：一个优秀的logo素材站点</li>
+<li><a href="http://hao.jobbole.com/logopond/" target="_blank" rel="external">LogoPond</a>：LOGO设计作品收藏网</li>
+<li><a href="http://hao.jobbole.com/brand-new/" target="_blank" rel="external">BRAND NEW</a>：资源丰富的Logo设计网站</li>
+<li><a href="http://hao.jobbole.com/logoed/" target="_blank" rel="external">LOGOED</a>：一个展示Logo设计的博客</li>
+<li><a href="http://hao.jobbole.com/logospire/" target="_blank" rel="external">LOGOSPIRE</a>：logo设计的交流平台</li>
+<li><a href="http://hao.jobbole.com/logo-of-the-day/" target="_blank" rel="external">Logo of the Day</a>：汇集世界各地优秀LOGO作品的站点</li>
+<li><a href="http://hao.jobbole.com/logodesignlove/" target="_blank" rel="external">LogoDesignLove</a>：Logo设计技巧分享网</li>
+<li><a href="http://hao.jobbole.com/brandseen/" target="_blank" rel="external">Brandseen</a>：匹配流行品牌LOGO颜色的在线游戏</li>
+</ul>
+<h3 id="Photoshop插件"><a href="#Photoshop插件" class="headerlink" title="Photoshop插件"></a>Photoshop插件</h3><ul>
+<li><a href="http://hao.jobbole.com/retinize/" target="_blank" rel="external">Retinize</a>：iOS切图神器</li>
+<li><a href="http://hao.jobbole.com/guideguide/" target="_blank" rel="external">GuideGuide</a>：一款PS参考线插件</li>
+<li><a href="http://hao.jobbole.com/divine-proportions-toolkit/" target="_blank" rel="external">Divine Proportions Toolkit</a>：黄金分割工具</li>
+<li><a href="http://hao.jobbole.com/kockout/" target="_blank" rel="external">Kockout</a>：PS抠图神器</li>
+<li><a href="http://hao.jobbole.com/coolors/" target="_blank" rel="external">Coolors</a>：自动生成配色色板的小工具</li>
+<li><a href="http://hao.jobbole.com/assistor-ps/" target="_blank" rel="external">Assistor PS</a>：一个功能强大的PS辅助工具</li>
+<li><a href="http://hao.jobbole.com/flexify-2/" target="_blank" rel="external">Flexify 2</a>：PS变形滤镜插件</li>
+<li><a href="http://hao.jobbole.com/devrocket/" target="_blank" rel="external">DevRocket</a>：一款iOS UI设计效率工具</li>
+<li><a href="http://hao.jobbole.com/slicy/" target="_blank" rel="external">Slicy</a>：Mac下的切图神器</li>
+<li><a href="http://hao.jobbole.com/kuler/" target="_blank" rel="external">Kuler</a>：Adobe的配色工具</li>
+</ul>
+<h3 id="交互设计工具"><a href="#交互设计工具" class="headerlink" title="交互设计工具"></a>交互设计工具</h3><ul>
+<li><a href="http://hao.jobbole.com/vxplo/" target="_blank" rel="external">VXPLO</a>：专业的HTML5编辑工具</li>
+<li><a href="http://hao.jobbole.com/epub360/" target="_blank" rel="external">Epub360</a>：专业级H5交互设计工具</li>
+<li><a href="http://hao.jobbole.com/indigo-studio/" target="_blank" rel="external">Indigo Studio</a>：UI原型设计和交互设计工具</li>
+<li><a href="http://hao.jobbole.com/avocado/" target="_blank" rel="external">Avocado</a>：无需编码的跟设计原型进行交互</li>
+<li><a href="http://hao.jobbole.com/webflow/" target="_blank" rel="external">Webflow</a>：傻瓜式网页设计制作平台</li>
+<li><a href="http://hao.jobbole.com/marvel/" target="_blank" rel="external">Marvel</a>：更专注交互动作的在线工具</li>
+<li><a href="http://hao.jobbole.com/principle/" target="_blank" rel="external">Principle</a>：Mac平台交互动效设计神器</li>
+<li><a href="http://hao.jobbole.com/quartz-composer/" target="_blank" rel="external">Quartz Composer</a>：图形化的编程工具</li>
+<li><a href="http://hao.jobbole.com/form/" target="_blank" rel="external">Form</a>：交互原型设计工具</li>
+<li><a href="http://hao.jobbole.com/pixate/" target="_blank" rel="external">Pixate</a>：设计师的免费动效神器</li>
+<li><a href="http://hao.jobbole.com/framer-js/" target="_blank" rel="external">Framer.js</a>：一个交互原型设计框架</li>
+<li><a href="http://hao.jobbole.com/keynote/" target="_blank" rel="external">Keynote</a>：快速制作高保真交互原型</li>
+<li><a href="http://hao.jobbole.com/origami/" target="_blank" rel="external">ORIGAMI</a>：交互神器-图像设计动画合成工具</li>
+<li><a href="http://hao.jobbole.com/invision/" target="_blank" rel="external">InVision</a>：便捷的产品原型生成工具</li>
+</ul>
+<h3 id="流程图-脑图"><a href="#流程图-脑图" class="headerlink" title="流程图/脑图"></a>流程图/脑图</h3><ul>
+<li><a href="http://hao.jobbole.com/processon/" target="_blank" rel="external">ProcessOn</a>：免费的在线作图、实时协作工具</li>
+<li><a href="http://hao.jobbole.com/drawanywhere/" target="_blank" rel="external">DrawAnywhere</a>：在线流程图制作工具</li>
+<li><a href="http://hao.jobbole.com/lovely-charts/" target="_blank" rel="external">Lovely Charts</a>：功能强大的在线图表制作工具</li>
+<li><a href="http://hao.jobbole.com/creately/" target="_blank" rel="external">Creately</a>：优秀的绘制产品图形的在线工具</li>
+<li><a href="http://hao.jobbole.com/cacoo/" target="_blank" rel="external">Cacoo</a>：在线简单易用的网络画图工具</li>
+<li><a href="http://hao.jobbole.com/lucidchart/" target="_blank" rel="external">LucidChart</a>：在线流程图绘制和协作应用平台</li>
+<li><a href="http://hao.jobbole.com/gliffy/" target="_blank" rel="external">Gliffy</a>：在线免费流程图制作工具</li>
+<li><a href="http://hao.jobbole.com/novamind/" target="_blank" rel="external">NovaMind</a>：非常优秀的思维导图软件</li>
+<li><a href="http://hao.jobbole.com/mindmapper/" target="_blank" rel="external">MindMapper</a>：专业的可视化脑图管理工具</li>
+<li><a href="http://hao.jobbole.com/freemind/" target="_blank" rel="external">FreeMind</a>：免费的思维导图软件</li>
+<li><a href="http://hao.jobbole.com/xmind/" target="_blank" rel="external">XMind</a>：非常实用的商业思维导图软件</li>
+<li><a href="http://hao.jobbole.com/mindmanager/" target="_blank" rel="external">MindManager</a>：专业思维导图工具</li>
+<li><a href="http://hao.jobbole.com/%e7%99%be%e5%ba%a6%e8%84%91%e5%9b%be/" target="_blank" rel="external">百度脑图</a>：便捷的思维编辑工具</li>
+</ul>
+<h3 id="灵感酷站"><a href="#灵感酷站" class="headerlink" title="灵感酷站"></a>灵感酷站</h3><ul>
+<li><a href="http://hao.jobbole.com/sketchrepo/" target="_blank" rel="external">Sketchrepo</a>：免费高品质的Sketch资源</li>
+<li><a href="http://hao.jobbole.com/psdrepo/" target="_blank" rel="external">Psdrepo</a>：免费高品质的PSD资源</li>
+<li><a href="http://hao.jobbole.com/1x/" target="_blank" rel="external">1X</a>：一个优秀的摄影作品网站</li>
+<li><a href="http://hao.jobbole.com/magdeleine/" target="_blank" rel="external">Magdeleine</a>：免费高清灵感图片网</li>
+<li><a href="http://hao.jobbole.com/we-heart-it/" target="_blank" rel="external">We Heart It</a>：每天发现充满灵感且美丽的图片</li>
+<li><a href="http://hao.jobbole.com/pinspire/" target="_blank" rel="external">PinSpire</a>：灵感创意作品收集平台</li>
+<li><a href="http://hao.jobbole.com/notcot/" target="_blank" rel="external">NotCot</a>：一个集视觉效果、美学为一体的网站</li>
+<li><a href="http://hao.jobbole.com/9gag/" target="_blank" rel="external">9GAG</a>：全球最搞笑的趣图网站</li>
+<li><a href="http://hao.jobbole.com/booooooom/" target="_blank" rel="external">BoooooooM</a>：设计简约但内容丰富的博客</li>
+<li><a href="http://hao.jobbole.com/illusion/" target="_blank" rel="external">illusion</a>：展示最惊人的创意图片</li>
+<li><a href="http://hao.jobbole.com/baubauhaus/" target="_blank" rel="external">Baubauhaus</a>：提供设计灵感、插画摄影等艺术作品</li>
+<li><a href="http://hao.jobbole.com/niice/" target="_blank" rel="external">Niice</a>：设计师必备的灵感搜索引擎</li>
+<li><a href="http://hao.jobbole.com/deviantart/" target="_blank" rel="external">DeviantArt</a>：最大的艺术和设计社区</li>
+<li><a href="http://hao.jobbole.com/%e8%8a%b1%e7%93%a3%e7%bd%91/" target="_blank" rel="external">花瓣网</a>：设计师寻找灵感的天堂</li>
+<li><a href="http://hao.jobbole.com/pixiv/" target="_blank" rel="external">pixiv</a>：日本同人画、插画作品分享站点</li>
+<li><a href="http://hao.jobbole.com/awwwards/" target="_blank" rel="external">Awwwards</a>：最佳网页设计展示平台</li>
+<li><a href="http://hao.jobbole.com/wallhaven/" target="_blank" rel="external">WallHaven</a>：高清壁纸图片搜索引擎</li>
+<li><a href="http://hao.jobbole.com/pinterest/" target="_blank" rel="external">Pinterest</a>：图片分享类的社交网站</li>
+<li><a href="http://hao.jobbole.com/abduzeedo/" target="_blank" rel="external">Abduzeedo</a>：一家集创意灵感和教程的设计博客</li>
+<li><a href="http://hao.jobbole.com/yanko-design/" target="_blank" rel="external">Yanko Design</a>：最棒的现代工业设计站点</li>
+<li><a href="http://hao.jobbole.com/swissmiss/" target="_blank" rel="external">SwissMiss</a>：分享创意设计的网站</li>
+<li><a href="http://hao.jobbole.com/petapixel/" target="_blank" rel="external">PetaPixel</a>：专业的摄影爱好者点评博客</li>
+<li><a href="http://hao.jobbole.com/365psd/" target="_blank" rel="external">365PSD</a>：免费psd图片素材下载网站</li>
+<li><a href="http://hao.jobbole.com/typophile/" target="_blank" rel="external">Typophile</a>：字体设计艺术网站</li>
+<li><a href="http://hao.jobbole.com/patterntap/" target="_blank" rel="external">Patterntap</a>：适合用户界面设计和图案感兴趣的同学</li>
+<li><a href="http://hao.jobbole.com/designshack/" target="_blank" rel="external">Designshack</a>：设计作品欣赏网站</li>
+<li><a href="http://hao.jobbole.com/behance/" target="_blank" rel="external">Behance</a>：全球领先的专业创意平台</li>
+<li><a href="http://hao.jobbole.com/dribbble/" target="_blank" rel="external">Dribbble</a>：设计师必备网站之一</li>
+<li><a href="http://hao.jobbole.com/ffffound/" target="_blank" rel="external">FFFFound</a>：专业的图片收藏网</li>
+<li><a href="http://hao.jobbole.com/mymodernmet/" target="_blank" rel="external">MyModernmet</a>：众多艺术家不可或缺的信息来源</li>
+<li><a href="http://hao.jobbole.com/grain-edit/" target="_blank" rel="external">Grain Edit</a>：复古和古典风格的设计内容</li>
+<li><a href="http://hao.jobbole.com/uiparade/" target="_blank" rel="external">UIparade</a>：灵感UI设计作品分享网站</li>
+<li><a href="http://hao.jobbole.com/muuuuu/" target="_blank" rel="external">Muuuuu</a>：日本网站画廊，收集最具创意网站</li>
+<li><a href="http://hao.jobbole.com/ikesai/" target="_blank" rel="external">iKesai</a>：网页设计作品案例库</li>
+<li><a href="http://hao.jobbole.com/css-winner/" target="_blank" rel="external">CSS Winner</a>：网站设计资源站点</li>
+</ul>
+<h3 id="线框图-原型图"><a href="#线框图-原型图" class="headerlink" title="线框图/原型图"></a>线框图/原型图</h3><ul>
+<li><a href="http://hao.jobbole.com/prott/" target="_blank" rel="external">Prott</a>：移动测试原型制作工具</li>
+<li><a href="http://hao.jobbole.com/solidify/" target="_blank" rel="external">Solidify</a>：一款原型制作软件</li>
+<li><a href="http://hao.jobbole.com/processon/" target="_blank" rel="external">ProcessOn</a>：免费的在线作图、实时协作工具</li>
+<li><a href="http://hao.jobbole.com/mockingbird/" target="_blank" rel="external">Mockingbird</a>：一个基于 Web 的在线原型设计平台</li>
+<li><a href="http://hao.jobbole.com/creately/" target="_blank" rel="external">Creately</a>：优秀的绘制产品图形的在线工具</li>
+<li><a href="http://hao.jobbole.com/cacoo/" target="_blank" rel="external">Cacoo</a>：在线简单易用的网络画图工具</li>
+<li><a href="http://hao.jobbole.com/gliffy/" target="_blank" rel="external">Gliffy</a>：在线免费流程图制作工具</li>
+<li><a href="http://hao.jobbole.com/indigo-studio/" target="_blank" rel="external">Indigo Studio</a>：UI原型设计和交互设计工具</li>
+<li><a href="http://hao.jobbole.com/%e5%a2%a8%e5%88%80mockingbot/" target="_blank" rel="external">墨刀MockingBot</a>：免费的移动应用原型与线框图工具</li>
+<li><a href="http://hao.jobbole.com/marvel/" target="_blank" rel="external">Marvel</a>：更专注交互动作的在线工具</li>
+<li><a href="http://hao.jobbole.com/keynote/" target="_blank" rel="external">Keynote</a>：快速制作高保真交互原型</li>
+<li><a href="http://hao.jobbole.com/omnigraffle-2/" target="_blank" rel="external">OmniGraffle</a>：Mac平台下最好的原型设计工具</li>
+<li><a href="http://hao.jobbole.com/handmade-sketches/" target="_blank" rel="external">Handmade Sketches</a>：手工草图绘制工具</li>
+<li><a href="http://hao.jobbole.com/mockups-me/" target="_blank" rel="external">Mockups.me</a>：ui线框图软件</li>
+<li><a href="http://hao.jobbole.com/live-wire/" target="_blank" rel="external">Live wire</a>：iPad上的线框图制作工具</li>
+<li><a href="http://hao.jobbole.com/uxtoolbox/" target="_blank" rel="external">UXToolbox</a>：Window平台的线框图工具</li>
+<li><a href="http://hao.jobbole.com/devrocket/" target="_blank" rel="external">DevRocket</a>：一款iOS UI设计效率工具</li>
+<li><a href="http://hao.jobbole.com/appcooker/" target="_blank" rel="external">AppCooker</a>：从图标草图到原型设计的iPad应用</li>
+<li><a href="http://hao.jobbole.com/blueprint/" target="_blank" rel="external">Blueprint</a>：你轻而易举地设计原型的iPad应用</li>
+<li><a href="http://hao.jobbole.com/mockplus%e6%91%a9%e5%ae%a2/" target="_blank" rel="external">Mockplus摩客</a>：简洁高效的原型图设计工具</li>
+<li><a href="http://hao.jobbole.com/pencil-project/" target="_blank" rel="external">Pencil Project</a>：制作图表和GUI原型的工具</li>
+<li><a href="http://hao.jobbole.com/iplotz/" target="_blank" rel="external">iPlotz</a>：用来创建可点击、可导航的原型和线框图工具</li>
+<li><a href="http://hao.jobbole.com/mokk-me/" target="_blank" rel="external">Mokk.me</a>：一个简单快速的原型工具</li>
+<li><a href="http://hao.jobbole.com/invision/" target="_blank" rel="external">InVision</a>：便捷的产品原型生成工具</li>
+<li><a href="http://hao.jobbole.com/hotgloo/" target="_blank" rel="external">HotGloo</a>：功能强大的产品原型在线工具</li>
+<li><a href="http://hao.jobbole.com/iphone-mockup/" target="_blank" rel="external">iPhone Mockup</a>：非常简单的在线原型工具</li>
+<li><a href="http://hao.jobbole.com/flairbuilder/" target="_blank" rel="external">FlairBuilder</a>：用来创建交互性线框图的快速原型工具</li>
+<li><a href="http://hao.jobbole.com/pidoco/" target="_blank" rel="external">Pidoco</a>：一款基于Web的原型设计软件</li>
+<li><a href="http://hao.jobbole.com/omnigraffle/" target="_blank" rel="external">Omnigraffle</a>：用来快速绘制线框图、图表、流程图等</li>
+<li><a href="http://hao.jobbole.com/wireframesketcher/" target="_blank" rel="external">WireframeSketcher</a>：灵活的线框图和原型快速创作工具</li>
+<li><a href="http://hao.jobbole.com/protoshare/" target="_blank" rel="external">Protoshare</a>：十分便捷的在线原型制作工具</li>
+<li><a href="http://hao.jobbole.com/mockflow/" target="_blank" rel="external">MockFlow</a>：制作产品原型的在线工具</li>
+<li><a href="http://hao.jobbole.com/balsamiq-mockups/" target="_blank" rel="external">Balsamiq Mockups</a>：基于Flash的快速制作线框图工具</li>
+<li><a href="http://hao.jobbole.com/proto-io/" target="_blank" rel="external">Proto.io</a>：一个专用的手机原型开发平台</li>
+<li><a href="http://hao.jobbole.com/axure-rp/" target="_blank" rel="external">Axure RP</a>：专业的快速原型设计工具</li>
+<li><a href="http://hao.jobbole.com/wireframe-cc/" target="_blank" rel="external">Wireframe.cc</a>：在线线框图绘制工具</li>
+<li><a href="http://hao.jobbole.com/powermockup/" target="_blank" rel="external">PowerMockup </a>：把微软的PPT文件直接变成线框图工具</li>
+<li><a href="http://hao.jobbole.com/uxpin/" target="_blank" rel="external">UXPin</a>：实体模型和在线可点击原型创作工具</li>
+<li><a href="http://hao.jobbole.com/fluid-ui/" target="_blank" rel="external">Fluid UI</a>：用于移动开发的Web原型设计工具</li>
+<li><a href="http://hao.jobbole.com/moqups/" target="_blank" rel="external">Mockup</a>：在线线框图工具</li>
+<li><a href="http://hao.jobbole.com/justinmind/" target="_blank" rel="external">justinmind</a>：产品原型设计工具</li>
+</ul>
+<h3 id="设计博客"><a href="#设计博客" class="headerlink" title="设计博客"></a>设计博客</h3><ul>
+<li><a href="http://hao.jobbole.com/booooooom/" target="_blank" rel="external">BoooooooM</a>：设计简约但内容丰富的博客</li>
+<li><a href="http://hao.jobbole.com/logoed/" target="_blank" rel="external">LOGOED</a>：一个展示Logo设计的博客</li>
+<li><a href="http://hao.jobbole.com/abduzeedo/" target="_blank" rel="external">Abduzeedo</a>：一家集创意灵感和教程的设计博客</li>
+<li><a href="http://hao.jobbole.com/swissmiss/" target="_blank" rel="external">SwissMiss</a>：分享创意设计的网站</li>
+<li><a href="http://hao.jobbole.com/the-industry/" target="_blank" rel="external">The Industry</a>：学习平面设计的极佳出版物</li>
+<li><a href="http://hao.jobbole.com/net-magazine/" target="_blank" rel="external">Net Magazine</a>：文章覆盖面广，适合扩宽眼界</li>
+<li><a href="http://hao.jobbole.com/web-designer-depot/" target="_blank" rel="external">Web Designer Depot</a>：适合视觉设计人员专注</li>
+<li><a href="http://hao.jobbole.com/design-modo/" target="_blank" rel="external">Design Modo</a>：偏于设计前沿和设计趋势的博客</li>
+<li><a href="http://hao.jobbole.com/lukew/" target="_blank" rel="external">Lukew</a>：干货文章分享，资深的用户体验专家</li>
+<li><a href="http://hao.jobbole.com/ux-magazine/" target="_blank" rel="external">UX Magazine</a>：善于用通俗的案例讲解理论知识</li>
+<li><a href="http://hao.jobbole.com/uxbooth/" target="_blank" rel="external">UXbooth</a>：专注于用户体验设计文章</li>
+<li><a href="http://hao.jobbole.com/smashing-magazine/" target="_blank" rel="external">Smashing Magazine</a>：整体质量很高的设计文章</li>
+<li><a href="http://hao.jobbole.com/the-great-discontent/" target="_blank" rel="external">The Great Discontent</a>：提供世界顶尖创意者的漫长访谈</li>
+</ul>
+<h3 id="设计工具"><a href="#设计工具" class="headerlink" title="设计工具"></a>设计工具</h3><ul>
+<li><a href="http://hao.jobbole.com/one-css-grid/" target="_blank" rel="external">One% CSS Grid</a>：一款基于百分比的CSS响应式框架</li>
+<li><a href="http://hao.jobbole.com/simple-grid/" target="_blank" rel="external">Simple Grid</a>：轻量级的响应式 CSS 网格系统</li>
+<li><a href="http://hao.jobbole.com/iconify-2/" target="_blank" rel="external">Iconify</a>：一个作品网站平台</li>
+<li><a href="http://hao.jobbole.com/iconify/" target="_blank" rel="external">iConify</a>：Mac平台的苹果应用图标自动化生成工具</li>
+<li><a href="http://hao.jobbole.com/viewport-resizer/" target="_blank" rel="external">Viewport Resizer</a>：一个测试响应式设计的小书签</li>
+<li><a href="http://hao.jobbole.com/divshot/" target="_blank" rel="external">Divshot</a>：在线的可视化网页设计工具</li>
+<li><a href="http://hao.jobbole.com/bootply/" target="_blank" rel="external">Bootply</a>：一款很棒的 Bootstrap UI 编辑工具</li>
+<li><a href="http://hao.jobbole.com/jetstrap/" target="_blank" rel="external">Jetstrap</a>：Bootstrap框架的可视化制作工具</li>
+<li><a href="http://hao.jobbole.com/layoutit/" target="_blank" rel="external">Layoutit</a>：在线搭建Bootstrap响应式布局的工具</li>
+<li><a href="http://hao.jobbole.com/bonsai-2/" target="_blank" rel="external">Bonsai</a>：一套轻量级的JavaScript绘图库</li>
+<li><a href="http://hao.jobbole.com/bootsnipp/" target="_blank" rel="external">Bootsnipp</a>：针对Web设计师和开发者的前端元素库</li>
+<li><a href="http://hao.jobbole.com/simplytestable/" target="_blank" rel="external">SimplyTestable</a>：一款自动的前端网页测试工具</li>
+<li><a href="http://hao.jobbole.com/onlytasks/" target="_blank" rel="external">Onlytasks</a>：支持双向同步的Evernote效率工具</li>
+<li><a href="http://hao.jobbole.com/rwdgrid/" target="_blank" rel="external">rwdgrid</a>：基于960grid的响应式网格系统</li>
+<li><a href="http://hao.jobbole.com/iconbench/" target="_blank" rel="external">Iconbench</a>：在线ICON素材图标制作工具</li>
+<li><a href="http://hao.jobbole.com/photo-raster/" target="_blank" rel="external">Photo Raster</a>：在线免费图片编辑美化工具</li>
+<li><a href="http://hao.jobbole.com/manymo/" target="_blank" rel="external">Manymo</a>：在线安卓系统模拟器工具</li>
+<li><a href="http://hao.jobbole.com/sellbox/" target="_blank" rel="external">Sellbox</a>：可以通过Dropbox账户售卖你的数字文档</li>
+<li><a href="http://hao.jobbole.com/rightfont/" target="_blank" rel="external">RightFont</a>：超好用的字体管理工具</li>
+<li><a href="http://hao.jobbole.com/wobzip/" target="_blank" rel="external">Wobzip</a>：提供在线解压缩文件的网站</li>
+<li><a href="http://hao.jobbole.com/archive-today/" target="_blank" rel="external">Archive.Today</a>：一个网页快照捕捉工具</li>
+<li><a href="http://hao.jobbole.com/minigrid/" target="_blank" rel="external">Minigrid</a>：简约漂亮的网页布局栅格系统</li>
+<li><a href="http://hao.jobbole.com/background-burner/" target="_blank" rel="external">Background Burner</a>：简单的在线抠图工具</li>
+<li><a href="http://hao.jobbole.com/cloudconvert/" target="_blank" rel="external">CloudConvert</a>：在线免费的万能文件格式转换器</li>
+<li><a href="http://hao.jobbole.com/lovely-charts/" target="_blank" rel="external">Lovely Charts</a>：功能强大的在线图表制作工具</li>
+<li><a href="http://hao.jobbole.com/cacoo/" target="_blank" rel="external">Cacoo</a>：在线简单易用的网络画图工具</li>
+<li><a href="http://hao.jobbole.com/incogna/" target="_blank" rel="external">Incogna</a>：相似图片搜索引擎</li>
+<li><a href="http://hao.jobbole.com/picitup/" target="_blank" rel="external">Picitup</a>：在线相似图片搜索引擎</li>
+<li><a href="http://hao.jobbole.com/pincap/" target="_blank" rel="external">PinCap</a>：图片资源收集管理工具</li>
+<li><a href="http://hao.jobbole.com/tineye/" target="_blank" rel="external">TinEye</a>：以图搜图的反向图片搜索引擎</li>
+<li><a href="http://hao.jobbole.com/giphy/" target="_blank" rel="external">Giphy</a>：专搜GIF动态图的搜索引擎</li>
+<li><a href="http://hao.jobbole.com/librestock/" target="_blank" rel="external">LibreStock</a>：一站搜寻二十个常用的图库网站</li>
+<li><a href="http://hao.jobbole.com/assistor-ps/" target="_blank" rel="external">Assistor PS</a>：一个功能强大的PS辅助工具</li>
+<li><a href="http://hao.jobbole.com/paintcode/" target="_blank" rel="external">PaintCode</a>：矢量图设计工具</li>
+<li><a href="http://hao.jobbole.com/macaw/" target="_blank" rel="external">Macaw</a>：富有超前性和前瞻性的Web设计工具</li>
+<li><a href="http://hao.jobbole.com/jimdo/" target="_blank" rel="external">Jimdo</a>：在线网页自助建站平台</li>
+<li><a href="http://hao.jobbole.com/ceilfire/" target="_blank" rel="external">Ceilfire</a>：一个创建HTML5游戏并分享的平台</li>
+<li><a href="http://hao.jobbole.com/weebly/" target="_blank" rel="external">Weebly</a>：快速搭建免费网站、博客和网店</li>
+<li><a href="http://hao.jobbole.com/google-web-designer/" target="_blank" rel="external">Google Web Designer</a>：可视化HTML5网页和广告设计开发工具</li>
+<li><a href="http://hao.jobbole.com/wix/" target="_blank" rel="external">Wix</a>：基于html5的免费网站生成应用</li>
+<li><a href="http://hao.jobbole.com/vxplo/" target="_blank" rel="external">VXPLO</a>：专业的HTML5编辑工具</li>
+<li><a href="http://hao.jobbole.com/%e6%98%93%e4%bc%81%e7%a7%80/" target="_blank" rel="external">易企秀</a>：H5页面移动微场景应用制作工具</li>
+<li><a href="http://hao.jobbole.com/%e5%85%94%e5%b1%95/" target="_blank" rel="external">兔展</a>：微信场景应用的在线制作工具</li>
+<li><a href="http://hao.jobbole.com/liveapp/" target="_blank" rel="external">Liveapp</a>：移动场景应用平台</li>
+<li><a href="http://hao.jobbole.com/maka/" target="_blank" rel="external">MAKA</a>：简单、强大的H5创作工具</li>
+<li><a href="http://hao.jobbole.com/%e5%88%9d%e9%a1%b5/" target="_blank" rel="external">初页</a>：微信H5海报创作工具</li>
+<li><a href="http://hao.jobbole.com/%e7%99%bd%e6%9d%bf/" target="_blank" rel="external">白板</a>：设计图多人实时讨论工具</li>
+<li><a href="http://hao.jobbole.com/ulead-cool-360/" target="_blank" rel="external">Ulead Cool 360</a>：一个全景图片生成器</li>
+<li><a href="http://hao.jobbole.com/red-pen/" target="_blank" rel="external">Red pen</a>：设计图实时讨论工具</li>
+<li><a href="http://hao.jobbole.com/coolsite360/" target="_blank" rel="external">Coolsite360</a>：无需编程的响应式网站设计工具</li>
+<li><a href="http://hao.jobbole.com/epub360/" target="_blank" rel="external">Epub360</a>：专业级H5交互设计工具</li>
+<li><a href="http://hao.jobbole.com/%e7%9a%ae%e5%bd%b1%e5%ae%a2/" target="_blank" rel="external">皮影客</a>：三分钟做部动画片</li>
+<li><a href="http://hao.jobbole.com/webflow/" target="_blank" rel="external">Webflow</a>：傻瓜式网页设计制作平台</li>
+<li><a href="http://hao.jobbole.com/quartz-composer/" target="_blank" rel="external">Quartz Composer</a>：图形化的编程工具</li>
+<li><a href="http://hao.jobbole.com/after-effects/" target="_blank" rel="external">After Effects</a>：一款图形视频处理软件</li>
+<li><a href="http://hao.jobbole.com/hype3/" target="_blank" rel="external">Hype 3</a>：帮助不会编程的用户轻松创建 HTML 5</li>
+<li><a href="http://hao.jobbole.com/dorado/" target="_blank" rel="external">Dorado</a>：一款方便灵活的标注工具</li>
+<li><a href="http://hao.jobbole.com/whatfontis/" target="_blank" rel="external">WhatFontIs</a>：在线图片字体识别工具</li>
+<li><a href="http://hao.jobbole.com/%e5%9c%a8%e7%ba%bf%e8%ae%a4%e5%ad%97%e4%bd%93/" target="_blank" rel="external">在线认字体</a>：看图识字的求字体网</li>
+<li><a href="http://hao.jobbole.com/markman/" target="_blank" rel="external">MarkMan马克鳗</a>：高效的设计稿标注、测量工具</li>
+<li><a href="http://hao.jobbole.com/skala-preview/" target="_blank" rel="external">Skala Preview</a>：iOS UI 设计师必备</li>
+<li><a href="http://hao.jobbole.com/briefs/" target="_blank" rel="external">Briefs</a>：专业APP设计工具</li>
+<li><a href="http://hao.jobbole.com/placeit/" target="_blank" rel="external">Placeit</a>：在线预览APP界面设计效果图的模板工具</li>
+<li><a href="http://hao.jobbole.com/ui-parde/" target="_blank" rel="external">UI Parde</a>：在线UI设计工具</li>
+<li><a href="http://hao.jobbole.com/css-content-filter/" target="_blank" rel="external">CSS Content Filter</a>：易于定制、便于集成的CSS内容过滤工具</li>
+<li><a href="http://hao.jobbole.com/tinycon/" target="_blank" rel="external">TinyCon</a>：用于管理Favicon和弹出框</li>
+<li><a href="http://hao.jobbole.com/gitup/" target="_blank" rel="external">Gitup</a>：为Git所准备的图形化客户端</li>
+<li><a href="http://hao.jobbole.com/unsplash-2/" target="_blank" rel="external">Unsplash</a>：用于网页中的图片占位符</li>
+<li><a href="http://hao.jobbole.com/now-ui-kit/" target="_blank" rel="external">Now UI Kit</a>：用于网页设计、平板和手机的界面</li>
+<li><a href="http://hao.jobbole.com/timber/" target="_blank" rel="external">Timber</a>：一款前端框架工具</li>
+<li><a href="http://hao.jobbole.com/grid-guide/" target="_blank" rel="external">Grid.Guide</a>：计算栅格宽度的工具</li>
+<li><a href="http://hao.jobbole.com/apostrophe/" target="_blank" rel="external">Apostrophe</a>：一款设计驱动下的内容管理系统</li>
+<li><a href="http://hao.jobbole.com/bonsai/" target="_blank" rel="external">Bonsai</a>：一款为自由设计师所准备的工具</li>
+<li><a href="http://hao.jobbole.com/gridlayout/" target="_blank" rel="external">GridLayout</a>：一款轻量级的栅格系统</li>
+<li><a href="http://hao.jobbole.com/rucksack/" target="_blank" rel="external">Rucksack</a>：一款有趣的CSS工具</li>
+<li><a href="http://hao.jobbole.com/flarum/" target="_blank" rel="external">Flarum</a>：一套简约易用的开源论坛系统</li>
+<li><a href="http://hao.jobbole.com/lightning-design-systems/" target="_blank" rel="external">Lightning Design Systems</a>：专注于构建体验优秀的企业级APP</li>
+<li><a href="http://hao.jobbole.com/frontify/" target="_blank" rel="external">Frontify</a>：维护品牌风格和样式的在线工具</li>
+<li><a href="http://hao.jobbole.com/tinypng/" target="_blank" rel="external">TinyPng</a>：在线PNG图片压缩工具</li>
+<li><a href="http://hao.jobbole.com/kendo-ui/" target="_blank" rel="external">Kendo UI</a> : jQuery HTML5 UI组件框架</li>
+<li><a href="http://hao.jobbole.com/adobeedgewebfonts/" target="_blank" rel="external">AdobeEdgeWebFonts</a>：Adobe免费Web字体</li>
+<li><a href="http://hao.jobbole.com/sizecalc/" target="_blank" rel="external">Sizecalc</a>：字体大小计算器</li>
+<li><a href="http://hao.jobbole.com/inkpad/" target="_blank" rel="external">Inkpad</a>：iPad 矢量插图应用</li>
+</ul>
+<h3 id="设计教程"><a href="#设计教程" class="headerlink" title="设计教程"></a>设计教程</h3><ul>
+<li><a href="http://hao.jobbole.com/sliderule/" target="_blank" rel="external">SlideRule</a>：在线免费课程搜索平台</li>
+<li><a href="http://hao.jobbole.com/abduzeedo/" target="_blank" rel="external">Abduzeedo</a>：一家集创意灵感和教程的设计博客</li>
+<li><a href="http://hao.jobbole.com/hackdesign/" target="_blank" rel="external">HackDesign</a>：黑客设计教学网</li>
+<li><a href="http://hao.jobbole.com/lukew/" target="_blank" rel="external">Lukew</a>：干货文章分享，资深的用户体验专家</li>
+<li><a href="http://hao.jobbole.com/ux-magazine/" target="_blank" rel="external">UX Magazine</a>：善于用通俗的案例讲解理论知识</li>
+<li><a href="http://hao.jobbole.com/uxbooth/" target="_blank" rel="external">UXbooth</a>：专注于用户体验设计文章</li>
+<li><a href="http://hao.jobbole.com/smashing-magazine/" target="_blank" rel="external">Smashing Magazine</a>：整体质量很高的设计文章</li>
+<li><a href="http://hao.jobbole.com/the-great-discontent/" target="_blank" rel="external">The Great Discontent</a>：提供世界顶尖创意者的漫长访谈</li>
+<li><a href="http://hao.jobbole.com/information-aesthetics/" target="_blank" rel="external">Information Aesthetics</a>：学习信息图设计和布局的网站</li>
+<li><a href="http://hao.jobbole.com/about-tech/" target="_blank" rel="external">about tech</a>：数字排版开放课程</li>
+<li><a href="http://hao.jobbole.com/aiga/" target="_blank" rel="external">AIGA</a>：专业的设计理论文章</li>
+<li><a href="http://hao.jobbole.com/design-tutsplus/" target="_blank" rel="external">Design Tutsplus</a>：专业设计教程网</li>
+</ul>
+<h3 id="设计素材"><a href="#设计素材" class="headerlink" title="设计素材"></a>设计素材</h3><ul>
+<li><a href="http://hao.jobbole.com/freepik/" target="_blank" rel="external">Freepik</a>：免费的素材搜索引擎</li>
+<li><a href="http://hao.jobbole.com/rbno2-1/" target="_blank" rel="external">RBNo2.1</a>：是简化版的非衬线字体</li>
+<li><a href="http://hao.jobbole.com/moki/" target="_blank" rel="external">Moki</a>：从七种不同的风格演变而来的字体</li>
+<li><a href="http://hao.jobbole.com/king-wood-volume/" target="_blank" rel="external">King Wood Volume</a>：带有Tuscan的哥特式风格的字体</li>
+<li><a href="http://hao.jobbole.com/window-dressing-jnl/" target="_blank" rel="external">Window Dressing JNL</a>：线条干净、简洁的字体</li>
+<li><a href="http://hao.jobbole.com/zombie-sunrise/" target="_blank" rel="external">Zombie Sunrise</a>：一款手绘设计的字体</li>
+<li><a href="http://hao.jobbole.com/toolkit/" target="_blank" rel="external">Toolkit</a>：一款免费的怀旧感字体</li>
+<li><a href="http://hao.jobbole.com/poly/" target="_blank" rel="external">Poly</a>：一款基于几何排列的免费显示字体</li>
+<li><a href="http://hao.jobbole.com/eaglefeather/" target="_blank" rel="external">Eaglefeather</a>：由P22 Type Foundry调整而来的字体</li>
+<li><a href="http://hao.jobbole.com/hummingbird/" target="_blank" rel="external">Hummingbird</a>：一款既怀旧复古又有科技感的字体</li>
+<li><a href="http://hao.jobbole.com/rosarian/" target="_blank" rel="external">Rosarian</a>：一款书法字体</li>
+<li><a href="http://hao.jobbole.com/sketchrepo/" target="_blank" rel="external">Sketchrepo</a>：免费高品质的Sketch资源</li>
+<li><a href="http://hao.jobbole.com/psdrepo/" target="_blank" rel="external">Psdrepo</a>：免费高品质的PSD资源</li>
+<li><a href="http://hao.jobbole.com/the-pattern-library/" target="_blank" rel="external">The Pattern Library</a>：免费纹理素材资源网</li>
+<li><a href="http://hao.jobbole.com/picjumbo/" target="_blank" rel="external">PicJumbo</a>：在线免费高质量素材网</li>
+<li><a href="http://hao.jobbole.com/material-ui-colors/" target="_blank" rel="external">Material UI Colors</a>：为Material Design而生的配色模板</li>
+<li><a href="http://hao.jobbole.com/design-kindle/" target="_blank" rel="external">Design Kindle</a>：免费网页UI设计素材下载站</li>
+<li><a href="http://hao.jobbole.com/deviantart/" target="_blank" rel="external">DeviantArt</a>：最大的艺术和设计社区</li>
+<li><a href="http://hao.jobbole.com/%e8%8a%b1%e7%93%a3%e7%bd%91/" target="_blank" rel="external">花瓣网</a>：设计师寻找灵感的天堂</li>
+<li><a href="http://hao.jobbole.com/365psd/" target="_blank" rel="external">365PSD</a>：免费psd图片素材下载网站</li>
+</ul>
+<h3 id="配色方案"><a href="#配色方案" class="headerlink" title="配色方案"></a>配色方案</h3><ul>
+<li><a href="http://hao.jobbole.com/spectrum/" target="_blank" rel="external">Spectrum</a>：色彩搭配、图片取色器工具</li>
+<li><a href="http://hao.jobbole.com/coolors/" target="_blank" rel="external">Coolors</a>：自动生成配色色板的小工具</li>
+<li><a href="http://hao.jobbole.com/material-palette/" target="_blank" rel="external">Material Palette</a>：Material Design专用在线配色工具</li>
+<li><a href="http://hao.jobbole.com/material-ui-colors/" target="_blank" rel="external">Material UI Colors</a>：为Material Design而生的配色模板</li>
+<li><a href="http://hao.jobbole.com/web%e5%ae%89%e5%85%a8%e8%89%b2/" target="_blank" rel="external">Web安全色</a>：WEB设计、开发中常用的安全颜色</li>
+<li><a href="http://hao.jobbole.com/color-hunter/" target="_blank" rel="external">Color Hunter</a>：一个十分酷炫的配色网站</li>
+<li><a href="http://hao.jobbole.com/%e9%85%8d%e8%89%b2%e7%bd%91/" target="_blank" rel="external">配色网</a>：国内的非盈利配色素材网站</li>
+<li><a href="http://hao.jobbole.com/nippon-colors/" target="_blank" rel="external">Nippon colors</a>：日本传统用色色谱网站</li>
+<li><a href="http://hao.jobbole.com/colorotate/" target="_blank" rel="external">Colorotate</a>：独特创意的设计调色板</li>
+<li><a href="http://hao.jobbole.com/colorzilla/" target="_blank" rel="external">ColorZilla</a>：火狐浏览器网页取色器插件</li>
+<li><a href="http://hao.jobbole.com/contrast-a/" target="_blank" rel="external">Contrast-A</a>：非常专业的调色板配置工具</li>
+<li><a href="http://hao.jobbole.com/adobe-color-cc/" target="_blank" rel="external">Adobe Color CC</a>：Adobe取色器</li>
+<li><a href="http://hao.jobbole.com/kuler/" target="_blank" rel="external">Kuler</a>：Adobe的配色工具</li>
+<li><a href="http://hao.jobbole.com/color-scheme-designer%e7%bd%91%e7%ab%99/" target="_blank" rel="external">Color Palette Generator</a>：图片配色工具</li>
+<li><a href="http://hao.jobbole.com/color-scheme-designer/" target="_blank" rel="external">Color Scheme Designer</a>：免费网络调色工具</li>
+<li><a href="http://hao.jobbole.com/color-hunt/" target="_blank" rel="external">Color Hunt</a>：漂亮炫酷的配色方案</li>
+<li><a href="http://hao.jobbole.com/brandseen/" target="_blank" rel="external">Brandseen</a>：匹配流行品牌LOGO颜色的在线游戏</li>
+</ul>
+<h3 id="高清图库"><a href="#高清图库" class="headerlink" title="高清图库"></a>高清图库</h3><ul>
+<li><a href="http://hao.jobbole.com/photopin/" target="_blank" rel="external">PhotoPin</a>：基于Flickr图片资源搜索引擎</li>
+<li><a href="http://hao.jobbole.com/splitshire/" target="_blank" rel="external">SplitShire</a>：免费高清摄影图片下载</li>
+<li><a href="http://hao.jobbole.com/free-refe-mobile-photos/" target="_blank" rel="external">Free Refe Mobile Photos</a>：主要提供免费的手机图片</li>
+<li><a href="http://hao.jobbole.com/photo-raster/" target="_blank" rel="external">Photo Raster</a>：在线免费图片编辑美化工具</li>
+<li><a href="http://hao.jobbole.com/stock-up/" target="_blank" rel="external">Stock Up</a>：一次查找21个免费可商用图库网站</li>
+<li><a href="http://hao.jobbole.com/wallpaperswide/" target="_blank" rel="external">Wallpaperswide</a>：精品壁纸下载站</li>
+<li><a href="http://hao.jobbole.com/socwall/" target="_blank" rel="external">Socwall</a>：高清壁纸下载站</li>
+<li><a href="http://hao.jobbole.com/flickr/" target="_blank" rel="external">flickr</a>：雅虎旗下图片分享网站</li>
+<li><a href="http://hao.jobbole.com/500px/" target="_blank" rel="external">500px</a>：一个专业摄影师图片社区</li>
+<li><a href="http://hao.jobbole.com/1x/" target="_blank" rel="external">1X</a>：一个优秀的摄影作品网站</li>
+<li><a href="http://hao.jobbole.com/jaymantri/" target="_blank" rel="external">Jaymantri</a>：免费高清摄影图片网</li>
+<li><a href="http://hao.jobbole.com/picography/" target="_blank" rel="external">Picography</a>：免费高清摄影图片分享网</li>
+<li><a href="http://hao.jobbole.com/foodiesfeed/" target="_blank" rel="external">FoodiesFeed</a>：免费食品图片下载网站</li>
+<li><a href="http://hao.jobbole.com/magdeleine/" target="_blank" rel="external">Magdeleine</a>：免费高清灵感图片网</li>
+<li><a href="http://hao.jobbole.com/raumrot/" target="_blank" rel="external">Raumrot</a>：免费高分辨率无版权图片网</li>
+<li><a href="http://hao.jobbole.com/freeimages/" target="_blank" rel="external">FreeImages</a>：免费商业图片素材网</li>
+<li><a href="http://hao.jobbole.com/lifeofpix/" target="_blank" rel="external">LifeOfPix</a>：免费欧美生活图片网</li>
+<li><a href="http://hao.jobbole.com/incogna/" target="_blank" rel="external">Incogna</a>：相似图片搜索引擎</li>
+<li><a href="http://hao.jobbole.com/picitup/" target="_blank" rel="external">Picitup</a>：在线相似图片搜索引擎</li>
+<li><a href="http://hao.jobbole.com/we-heart-it/" target="_blank" rel="external">We Heart It</a>：每天发现充满灵感且美丽的图片</li>
+<li><a href="http://hao.jobbole.com/illusion/" target="_blank" rel="external">illusion</a>：展示最惊人的创意图片</li>
+<li><a href="http://hao.jobbole.com/visualizeus/" target="_blank" rel="external">VisualizeUs</a>：一个图片收藏网站</li>
+<li><a href="http://hao.jobbole.com/pincap/" target="_blank" rel="external">PinCap</a>：图片资源收集管理工具</li>
+<li><a href="http://hao.jobbole.com/tineye/" target="_blank" rel="external">TinEye</a>：以图搜图的反向图片搜索引擎</li>
+<li><a href="http://hao.jobbole.com/giphy/" target="_blank" rel="external">Giphy</a>：专搜GIF动态图的搜索引擎</li>
+<li><a href="http://hao.jobbole.com/librestock/" target="_blank" rel="external">LibreStock</a>：一站搜寻二十个常用的图库网站</li>
+<li><a href="http://hao.jobbole.com/im-free/" target="_blank" rel="external">IM Free</a>：免费高清图片库</li>
+<li><a href="http://hao.jobbole.com/the-pattern-library/" target="_blank" rel="external">The Pattern Library</a>：免费纹理素材资源网</li>
+<li><a href="http://hao.jobbole.com/picjumbo/" target="_blank" rel="external">PicJumbo</a>：在线免费高质量素材网</li>
+<li><a href="http://hao.jobbole.com/design-kindle/" target="_blank" rel="external">Design Kindle</a>：免费网页UI设计素材下载站</li>
+<li><a href="http://hao.jobbole.com/%e8%8a%b1%e7%93%a3%e7%bd%91/" target="_blank" rel="external">花瓣网</a>：设计师寻找灵感的天堂</li>
+<li><a href="http://hao.jobbole.com/wallhaven/" target="_blank" rel="external">WallHaven</a>：高清壁纸图片搜索引擎</li>
+<li><a href="http://hao.jobbole.com/snapographic/" target="_blank" rel="external">Snapographic</a>：免费高清照片订阅网</li>
+<li><a href="http://hao.jobbole.com/twnsnd/" target="_blank" rel="external">Twnsnd</a>：免费复古照片公共档案库</li>
+<li><a href="http://hao.jobbole.com/girly-drop/" target="_blank" rel="external">GIRLY DROP</a>：高清美女图片素材站</li>
+<li><a href="http://hao.jobbole.com/foter/" target="_blank" rel="external">Foter</a>：免费图片素材搜索引擎</li>
+<li><a href="http://hao.jobbole.com/designerspics/" target="_blank" rel="external">DesignersPics</a>：免费高清图片资源</li>
+<li><a href="http://hao.jobbole.com/pexels/" target="_blank" rel="external">Pexels</a>：免费高品质图片 可商用</li>
+<li><a href="http://hao.jobbole.com/gratisography/" target="_blank" rel="external">Gratisography</a>：定期发布高品质的免费照片</li>
+<li><a href="http://hao.jobbole.com/function/" target="_blank" rel="external">Function</a>：优秀的图片网站</li>
+<li><a href="http://hao.jobbole.com/pixabay/" target="_blank" rel="external">Pixabay</a>：内容丰富的摄影照片网站</li>
+<li><a href="http://hao.jobbole.com/death-to-the-stock-photo/" target="_blank" rel="external">Death To The Stock Photo</a>：高品质的照片网站</li>
+<li><a href="http://hao.jobbole.com/dotspin/" target="_blank" rel="external">DotSpin</a>：漂亮的图片素材网站</li>
+<li><a href="http://hao.jobbole.com/new-old-stock/" target="_blank" rel="external">New Old Stock</a>：一个有趣的复古照片网站</li>
+<li><a href="http://hao.jobbole.com/superfamous-studios/" target="_blank" rel="external">Superfamous</a>：免费高质量图片素材</li>
+<li><a href="http://hao.jobbole.com/little-visuals/" target="_blank" rel="external">Little Visuals</a>：免费高质量图片素材</li>
+<li><a href="http://hao.jobbole.com/unsplash/" target="_blank" rel="external">Unsplash</a>： 高品质免费图片素材库</li>
+</ul>
+<p></p><h3 id="weibo-weixin">微博、微信公众号</h3><p></p>
+<ul>
+<li>设计的那些事 微博：<a href="http://weibo.com/u/2088601913" target="_blank" rel="external">@设计的那些事</a></li>
+<li>设计的那些事：分享精选的设计相关文章、案例和行业动态。同时，也会不定期推荐设计教程、高薪职位和设计相关的优秀工具。<br><br><img src="http://ww1.sinaimg.cn/mw690/bfdcef89gw1evuvyavvvmj207607674r.jpg" width="150" height="150"></li>
+<li>UI设计达人：分享 UI 设计精选文章、案例、行业趋势、课程和书籍。<br><img src="http://ww4.sinaimg.cn/mw690/bfdcef89gw1evuvyehtx4j2076076q3e.jpg" width="150" height="150"></li>
+<li>网页设计精选：分享网页设计精选文章、案例、行业趋势、课程和书籍。<br><img src="http://ww2.sinaimg.cn/mw690/bfdcef89gw1evuvyhsikmj2076076dgb.jpg" width="150" height="150"></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一些有用的设计资源&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Design" scheme="http://thuxuxs.github.io/tags/Design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>二能级系统以及常用计算方法</title>
+    <link href="http://thuxuxs.github.io/2017/02/03/%E4%BA%8C%E8%83%BD%E7%BA%A7%E7%B3%BB%E7%BB%9F%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95/"/>
+    <id>http://thuxuxs.github.io/2017/02/03/二能级系统以及常用计算方法/</id>
+    <published>2017-02-03T22:41:33.000Z</published>
+    <updated>2017-02-13T21:29:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>二能级系统是许多物理研究的基础，特别是量子光学。本文简单介绍半经典理论下（原子量子化、光场没有量子化）二能级系统的一些常用计算方法以及缀饰态的概念。<br><a id="more"></a></p>
+<h2 id="原始表象"><a href="#原始表象" class="headerlink" title="原始表象"></a>原始表象</h2><p>我们设$\left|1\right&gt;$为基态，$\left|2\right&gt;$为激发态，能级差为$E=\hbar \omega_0$，选择能级中心为零势能点，则两个能级的能量本征值分别为$$E_1=-\hbar \omega_0/2,E_2=\hbar\omega_0/2.$$ 入射光频率为$\omega$，那么系统随时间演化的态和哈密顿量可写为<br>$$\begin{aligned}<br>\left|\psi(t)\right&gt;&amp;=a_1(t)\left|1\right&gt;+a_2(t)\left|2\right&gt;\\<br>&amp;=\mathbf{a}^T\mathbf{n}\\<br>H&amp;=-\frac{\hbar}{2}\omega_0\sigma_{11}+\frac{\hbar}{2}\omega_0\sigma_{22}+\frac{\hbar}{2}(\Omega^\dagger(t) e^{i\omega t}+\Omega(t) e^{-i\omega t})(\sigma_{12}+\sigma_{21})\\<br>&amp;=-\frac{\hbar}{2}\omega_0\sigma_z+\frac{\hbar}{2}(\Omega^\dagger(t) e^{i\omega t}+\Omega(t) e^{-i\omega t})\sigma_x\\<br>&amp;=H_0+V(t)<br>\end{aligned}$$<br>写出薛定谔方程可得概率幅随时间的演化公式<br>$$i\hbar\frac{d \mathbf{a}}{dt}=\mathbf{Ha}$$<br>其中$\mathbf{H},\mathbf{a}$分别为其矩阵形式。</p>
+<h2 id="相互作用表象"><a href="#相互作用表象" class="headerlink" title="相互作用表象"></a>相互作用表象</h2><p>我们取<br>$$\begin{aligned}<br>\left|\psi(t)\right&gt;&amp;=b_1(t)e^{-iE_1t/\hbar}\left|1\right&gt;+b_2(t)e^{-iE_2t/\hbar}\left|2\right&gt;\\<br>&amp;=b_1(t)e^{i\omega_0t/2}\left|1\right&gt;+b_2(t)e^{-i\omega_0t/2}\left|2\right&gt;<br>\end{aligned}$$<br>那么我们可以求出此表象与原始表象之间的关系<br>$$\mathbf{a}=e^{-i\mathbf{H_0}t/\hbar}\mathbf{b}=e^{i\omega_0t\sigma_z}\mathbf{b}=U_1^\dagger\mathbf{b}$$<br>$$\mathbf{b}=U_1\mathbf{a},\quad \mathbf{n}_I^T(t)=\mathbf{n}^TU_1^\dagger$$<br>则我们可以计算出新的表象下薛定谔方程和哈密顿量的形式为<br>$$\begin{aligned}<br>i\hbar\frac{d\mathbf{b}}{dt}&amp;=i\hbar\left(\frac{dU_1}{dt}\mathbf{a}+U_1\frac{d\mathbf{a}}{dt}\right)\\<br>&amp;=i\hbar\frac{dU_1}{dt}U_1^\dagger\mathbf{b}+U_1\mathbf{H}U_1^\dagger\mathbf{b}\\<br>&amp;=\left(U_1\mathbf{H}U_1^\dagger+i\hbar\frac{dU_1}{dt}U_1^\dagger\right)\mathbf{b}\\<br>&amp;=\mathbf{H}_1\mathbf{b}<br>\end{aligned}$$<br>可计算出新的哈密顿量为<br>$$\begin{aligned}<br>\mathbf{H}_1&amp;=U_1\mathbf{H}U_1^\dagger+i\hbar\frac{dU_1}{dt}U_1^\dagger\\<br>&amp;=U_1\mathbf{V}U_1^\dagger\\<br>&amp;=\frac{\hbar}{2}\begin{pmatrix}0&amp;\Omega^\dagger(t)e^{-i\delta t}+\Omega(t)e^{-i(\omega+\omega_0)t}\\\Omega(t)e^{i\delta t}+\Omega^\dagger(t)e^{i(\omega+\omega_0)t}&amp;0\end{pmatrix}\\<br>&amp;\approx\frac{\hbar}{2}\begin{pmatrix}0&amp;\Omega^\dagger(t)e^{-i\delta t}\\\Omega(t)e^{i\delta t}&amp;0\end{pmatrix}<br>\end{aligned}$$<br>最后一式在旋波近似下成立。<code>由此可见在相互作用表象下，最后的哈密顿量只剩下含时的（也可不含时）相互作用项。</code></p>
+<h2 id="场相互作用表象"><a href="#场相互作用表象" class="headerlink" title="场相互作用表象"></a>场相互作用表象</h2><p>我们取<br>$$<br>\left|\psi(t)\right&gt;=c_1(t)e^{i\omega t/2}\left|1\right&gt;+c_2(t)e^{-i\omega t/2}\left|2\right&gt;<br>$$<br>那么我们可以求出此表象与原始表象之间的关系<br>$$\mathbf{a}=e^{i\omega t\sigma_z}\mathbf{c}=U_2^\dagger\mathbf{c}$$<br>$$\mathbf{c}=U_2\mathbf{a},\quad \mathbf{n}_F^T(t)=\mathbf{n}^TU_2^\dagger$$<br>则我们可以计算出新的表象下薛定谔方程和哈密顿量的形式为<br>$$\begin{aligned}<br>i\hbar\frac{d\mathbf{c}}{dt}<br>&amp;=\left(U_2\mathbf{H}U_2^\dagger+i\hbar\frac{dU_2}{dt}U_2^\dagger\right)\mathbf{c}\\<br>&amp;=\mathbf{H}_2\mathbf{c}<br>\end{aligned}$$<br>可计算出新的哈密顿量为<br>$$\begin{aligned}<br>\mathbf{H}_2&amp;=U_2\mathbf{H}U_2^\dagger+i\hbar\frac{dU_2}{dt}U_2^\dagger\\<br>&amp;=\frac{\hbar}{2}\begin{pmatrix}-\delta&amp;\Omega^\dagger(t)+\Omega(t)e^{-2i\omega t}\\\Omega(t)+\Omega^\dagger(t)e^{2i\omega t}&amp;\delta\end{pmatrix}\\<br>&amp;\approx\frac{\hbar}{2}\begin{pmatrix}-\delta&amp;\Omega^\dagger(t)\\\Omega(t)&amp;\delta\end{pmatrix}<br>\end{aligned}$$<br>最后一式在旋波近似下成立。此表象的好处是比较容易计算态的概率幅。当拉比频率不含时时，我们可以直接对薛定谔方程积分<br>$$\begin{aligned}<br>\mathbf{c}(t)&amp;=e^{-i\mathbf{H}_2t/\hbar}\mathbf{c}(0)\\<br>&amp;=e^{-i\mathbf{n}\cdot\mathbf{\sigma}\Omega t/2}\mathbf{c}(0)<br>\end{aligned}$$</p>
+<h2 id="缀饰表象"><a href="#缀饰表象" class="headerlink" title="缀饰表象"></a>缀饰表象</h2><p>在场相互作用表象下，我们再将基矢做一个旋转变换<br>$$\mathbf{n}_D(t)=T\mathbf{n}_F(t)$$<br>$T$为一般旋转矩阵<br>$$T(t)=\begin{pmatrix}<br>\cos(\theta(t))&amp;-\sin(\theta(t))\\<br>\sin(\theta(t))&amp;\cos(\theta(t))<br>\end{pmatrix}$$<br>那么此时的酉变换为$U_3=T$，且新的哈密顿量为<br>$$\begin{aligned}<br>\mathbf{H}_D&amp;=T\mathbf{H_2}T^\dagger+i\hbar\frac{dT}{dt}T^\dagger\\<br>\end{aligned}$$</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;二能级系统是许多物理研究的基础，特别是量子光学。本文简单介绍半经典理论下（原子量子化、光场没有量子化）二能级系统的一些常用计算方法以及缀饰态的概念。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>费米黄金法则</title>
+    <link href="http://thuxuxs.github.io/2017/01/31/%E8%B4%B9%E7%B1%B3%E9%BB%84%E9%87%91%E6%B3%95%E5%88%99/"/>
+    <id>http://thuxuxs.github.io/2017/01/31/费米黄金法则/</id>
+    <published>2017-01-31T22:09:32.000Z</published>
+    <updated>2017-02-01T00:53:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>从微扰论出发，得到费米黄金法则，一句话总结：<strong>外电磁场作用下的原子态间跃迁几率与跃迁矩阵元的模量平方、末态态密度成正比</strong><br><a id="more"></a></p>
+<h1 id="含时微扰论"><a href="#含时微扰论" class="headerlink" title="含时微扰论"></a>含时微扰论</h1><p>系统哈密顿量为<br>$$H=H_0+W(t)$$<br>其中$W(t)$微扰，在没有微扰时，系统的本征态为$H_0\left|n\right&gt;=E_n\left|n\right&gt;$，我们设有微扰时的状态为<br>$$\begin{aligned}<br>H\left|\psi(t)\right&gt;&amp;=i\hbar\frac{\partial}{\partial t}\sum_n{c_n(t)\left|n\right&gt;e^{-iE_nt/\hbar}}\\<br>&amp;=i\hbar\sum_n{\frac{\partial c_n(t)}{\partial t}\left|n\right&gt;e^{-iE_n t/\hbar}}+\sum_n{c_n(t)E_n\left|n\right&gt;e^{-iE_n t/\hbar}}\\<br>&amp;=\sum_n{c_n(t)W(t)\left|n\right&gt;e^{-iE_n t/\hbar}}+\sum_n{c_n(t)E_n\left|n\right&gt;e^{-iE_n t/\hbar}}<br>\end{aligned}$$<br>所以得到<br>$$\sum_n{c_n(t)W_{kn}e^{-iE_n t/\hbar}}=i\hbar \frac{\partial c_k(t)}{\partial t}e^{-iE_k t/\hbar}$$<br>$$<br>\frac{\partial c_k(t)}{\partial t}=\frac{1}{i\hbar}\sum_n{c_n(t)W_{kn}e^{iE_{kn}t/\hbar}}<br>$$<br>初始时系统处于状态$\left|i\right&gt;$，将$c_k(t)$进行微扰展开<br>$$c_k(t)=c_k^0(t)+c_k^1(t)+…$$<br>考虑到微扰是一阶微扰，所以我们有</p>
+<h2 id="零阶微扰"><a href="#零阶微扰" class="headerlink" title="零阶微扰"></a>零阶微扰</h2><p>$$\frac{\partial c_k^0(t)}{\partial t}=0$$<br>所以<br>$$c_k^0(t)=\delta_{ik}$$</p>
+<h2 id="一阶微扰"><a href="#一阶微扰" class="headerlink" title="一阶微扰"></a>一阶微扰</h2><p>$$\begin{aligned}<br>\frac{\partial c_k^1(t)}{\partial t}&amp;=\frac{1}{i\hbar}\sum_n{c_n^0(t)W_{kn}e^{iE_{kn}t/\hbar}}\\<br>&amp;=\frac{1}{i\hbar}W_{ki}e^{i\omega_{ki}t}<br>\end{aligned}$$</p>
+<p>所以在一阶微扰近似下，我们得到$(f\neq i)$<br>$$\begin{aligned}<br>|\left<f|\psi(t)\right>|^2<br>&amp;=|c_f(t)|^2\\<br>&amp;=\left|\frac{1}{i\hbar}\int_0^t{W_{fi}e^{i\omega_{fi}t’}dt’}\right|^2<br>\end{aligned}$$</f|\psi(t)\right></p>
+<h1 id="费米黄金法则"><a href="#费米黄金法则" class="headerlink" title="费米黄金法则"></a>费米黄金法则</h1><p>我们考虑最常见的<code>简谐微扰</code>，一般的微扰也可以通过傅里叶变换转化为简谐微扰。<br>$$W(t)=2W\cos(\omega t)=W(e^{i\omega t}+e^{-i\omega t})$$<br>所以求得末态的概率幅为<br>$$\begin{aligned}<br>c_f(t)&amp;=\frac{1}{i\hbar}\int_0^t{W_{fi}(e^{i\omega t’}+e^{-i\omega t’})e^{i\omega_{fi}t’}dt’}\\<br>&amp;=\frac{W_{fi}}{i\hbar}\left(\frac{e^{i(\omega_{fi}+\omega)t}-1}{i(\omega_{fi}+\omega)}+\frac{e^{i(\omega_{fi}-\omega)t}-1}{i(\omega_{fi}-\omega)}\right)<br>\end{aligned}$$<br>假设微扰的频率是近共振的，即$\omega \approx \omega_{fi}$，所以上式括号内第一项可以忽略，因为其分母比分子大很多，而第二项则不是。在此条件下有<br>$$\begin{aligned}<br>|\left<f|\psi(t)\right>|^2<br>&amp;=\frac{W_{fi}^2}{\hbar^2}\left|\frac{e^{i(\omega_{fi}-\omega)t}-1}{i(\omega_{fi}-\omega)}\right|^2\\<br>&amp;=\frac{W_{fi}^2}{\hbar^2}\left|\frac{e^{i(\omega_{fi}-\omega)t/2}-e^{-i(\omega_{fi}-\omega)t/2}}{i(\omega_{fi}-\omega)}\right|^2\\<br>&amp;=\frac{W_{fi}^2}{\hbar^2}\left|\frac{\sin{(\omega_{fi}-\omega)t/2}}{(\omega_{fi}-\omega)/2}\right|^2\\<br>\end{aligned}$$<br>由于取了一阶微扰近似和旋波近似，所以此理论是有一定作用规范为的，必须满足$$\frac{1}{\omega}\approx\frac{1}{\omega_{fi}}\ll t \ll \frac{1}{|W_{fi}|/\hbar}$$所考虑的时间要比微扰的周期大得多但又要比能力差对应的时间尺度小很多。</f|\psi(t)\right></p>
+<h2 id="末态为连续态"><a href="#末态为连续态" class="headerlink" title="末态为连续态"></a>末态为连续态</h2><p>当末态是连续态时，跃迁概率应该为上述概率诚意态密度后的积分。<br>$$\begin{aligned}<br>p(t)<br>&amp;=\int |\left<f|\psi(t)\right>|^2 \rho(E)dE\\<br>&amp;=\int{\frac{W_{fi}^2}{\hbar^2}\left|\frac{\sin{(\omega_{fi}-\omega)t/2}}{(\omega_{fi}-\omega)/2}\right|^2\rho(E)dE}\\<br>&amp;\approx\frac{W_{fi}^2\rho(E_{fi})}{\hbar^2}\int{\left|\frac{\sin{(\omega_{fi}-\omega)t/2}}{(\omega_{fi}-\omega)/2}\right|^2\hbar d\omega}\\<br>&amp;\approx\frac{W_{fi}^2\rho(E_{fi})}{\hbar^2}\hbar(\frac{2}{t})t^2\int_{-\infty}^{+\infty}{\frac{\sin^2x}{x^2}dx}\\<br>&amp;=\frac{2\pi}{\hbar}W_{fi}^2\rho(E_{fi})t<br>\end{aligned}$$<br>第一个约等于是因为假设绝对值内是Delta函数（画图可知类似于），第二个约等于是因为积分号内的函数在频率很大时几乎为零，所以可以将积分限取为正负无穷。<br>传输率为$$\Gamma=\frac{\partial p}{\partial t}=\frac{2\pi}{\hbar}W_{fi}^2\rho(E_{fi})$$</f|\psi(t)\right></p>
+<blockquote>
+<p>此理论做了无数的近似，我不知道最后结果跟实际结果差别到底有多大。。。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;从微扰论出发，得到费米黄金法则，一句话总结：&lt;strong&gt;外电磁场作用下的原子态间跃迁几率与跃迁矩阵元的模量平方、末态态密度成正比&lt;/strong&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>光力系统哈密顿量的线性化</title>
+    <link href="http://thuxuxs.github.io/2017/01/09/%E5%85%89%E5%8A%9B%E7%B3%BB%E7%BB%9F%E5%93%88%E5%AF%86%E9%A1%BF%E9%87%8F%E7%9A%84%E7%BA%BF%E6%80%A7%E5%8C%96/"/>
+    <id>http://thuxuxs.github.io/2017/01/09/光力系统哈密顿量的线性化/</id>
+    <published>2017-01-09T22:28:51.000Z</published>
+    <updated>2017-01-18T23:13:55.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>光力系统中哈密顿量的线性化<br><a id="more"></a><br>由于辐射压力的存在，光学微腔的共振频率受到微小的改变，我们把这种改变线性展开到第二项，忽略高阶项得其系统哈密顿量为<br>$$<br>H=\hbar\omega_m b^\dagger b+\hbar(\omega_0-Gx)a^\dagger a+i\hbar\sqrt{k_{ex}}(a^\dagger s_{in} e^{-i\omega_lt}-a s_{in}^\dagger e^{i\omega_lt})<br>$$<br>首先取酉变换$U=\exp{(i\omega_l a^\dagger at)}$，并由$x=x_{ZPF}(b^\dagger +b)$，得哈密顿量变为<br>$$H=-\hbar\Delta a^\dagger a-\hbar g_0a^\dagger a(b^\dagger + b)+\hbar \omega_m b^\dagger b+i\hbar \sqrt{\kappa_{ex}}(a^\dagger s_{in}-as_{in}^\dagger)$$<br>这里设$\Delta=\omega_l-\omega_0,g_0=Gx_{ZPF}$。<br>下面做线性化处理，我们取$a=\overline{\alpha}+\delta a$，此时相互作用的哈密顿量为<br>$$H_{int}=-\hbar g_0(\overline{\alpha}+\delta a)^\dagger(\overline{\alpha}+\delta a)(b^\dagger+b)=-\hbar g_0\sqrt{n_{cav}}(\delta a+\delta a^\dagger)(b^\dagger + b)$$<br>所以总的哈密顿量为<br>$$H=-\hbar \Delta \delta a^\dagger \delta a-\hbar g(\delta a+\delta a^\dagger)(b^\dagger + b)+\hbar \omega_m b^\dagger b$$<br>这里$g=g_0\sqrt{n_{cav}}=g_0\overline{\alpha}$。特别注意此时的泵浦项会抵消掉！对于相互作用哈密顿量，在不同的失谐量下可以选取不同部分，当在红失谐是，我们舍去$\delta a b+\delta a^\dagger b^\dagger$，此时哈密顿量为<br>$$H=-\hbar \Delta \delta a^\dagger \delta a-\hbar g(\delta ab^\dagger + \delta a^\dagger b)+\hbar \omega_m b^\dagger b$$<br>而当蓝失谐时，有哈密顿量为<br>$$H=-\hbar \Delta \delta a^\dagger \delta a-\hbar g(\delta ab + \delta a^\dagger b^\dagger)+\hbar \omega_m b^\dagger b$$</p>
+<blockquote>
+<p>临时推导</p>
+</blockquote>
+<p>$$H=\hbar \omega_m b^\dagger b+\hbar \omega_{1}a_1^\dagger a_1+\hbar \omega_{2}a_2^\dagger a_2+\hbar G_1(a_1^\dagger b+a_1b^\dagger)+\hbar G_2(a_2^\dagger b+a_2 b^\dagger)+i\hbar\sqrt{\kappa_{ex1}}A_1(a_1^\dagger e^{-i\omega_{l1}t}-a_1 e^{i\omega_{l1}t})+i\hbar\sqrt{\kappa_{ex1}}A_{in}(a_1^\dagger e^{-i\omega_{in}t}-a_1 e^{i\omega_{in}t})+i\hbar\sqrt{\kappa_{ex2}}A_2(a_2^\dagger e^{-i\omega_{l2}t}-a_1 e^{i\omega_{l2}t})$$<br>$U=e^{i\theta t(a_1^\dagger a_1+a_2^\dagger a_2+b^\dagger b)}$</p>
+<p>$$\begin{aligned}<br>H=&amp;\hbar (\omega_m-\theta) b^\dagger b+\hbar (\omega_{1}-\theta)a_1^\dagger a_1+\hbar (\omega_{2}-\theta)a_2^\dagger a_2+\hbar G_1(a_1^\dagger b+a_1b^\dagger)+\hbar G_2(a_2^\dagger b+a_2 b^\dagger)\\<br>&amp;+i\hbar\sqrt{\kappa_{ex1}}A_1(a_1^\dagger e^{i\theta t}e^{-i\omega_{l1}t}-a_1 e^{-i\theta t}e^{i\omega_{l1}t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex1}}A_{in}(a_1^\dagger e^{i\theta t}e^{-i\omega_{in}t}-a_1 e^{-i\theta t}e^{i\omega_{in}t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex2}}A_2(a_2^\dagger e^{i\theta t}e^{-i\omega_{l2}t}-a_1 e^{-i\theta t}e^{i\omega_{l2}t})\\<br>=&amp;\hbar (\omega_m-\theta) \beta^\dagger \beta+\hbar (\omega_{1}-\theta)\alpha_1^\dagger \alpha_1+\hbar (\omega_{2}-\theta)\alpha_2^\dagger \alpha_2+\hbar G_1(\alpha_1^\dagger \beta+\alpha_1\beta^\dagger)+\hbar G_2(\alpha_2^\dagger \beta+\alpha_2 \beta^\dagger)\\<br>&amp;+i\hbar\sqrt{\kappa_{ex1}}A_1(\alpha_1^\dagger e^{-i\omega_{l1}t}-\alpha_1 e^{i\omega_{l1}t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex1}}A_{in}(\alpha_1^\dagger e^{-i\omega_{in}t}-\alpha_1 e^{i\omega_{in}t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex2}}A_2(\alpha_2^\dagger e^{-i\omega_{l2}t}-\alpha_1 e^{i\omega_{l2}t})\\<br>\end{aligned}$$</p>
+<p>$U=e^{i\omega_{l1}ta_1^\dagger a_1+i\omega_{l2}a_2^\dagger a_2}$<br>$$\begin{aligned}<br>H=&amp;\hbar (\omega_m-\theta) \beta^\dagger \beta+\hbar (\omega_{1}-\theta-\omega_{l1})\alpha_1^\dagger \alpha_1+\hbar (\omega_{2}-\theta-\omega_{l2})\alpha_2^\dagger \alpha_2+\hbar G_1(\alpha_1^\dagger \beta e^{i\omega_{l1}t}+\alpha_1\beta^\dagger e^{-i\omega_{l1}t})+\hbar G_2(\alpha_2^\dagger \beta e^{i\omega_{l2}t}+\alpha_2 \beta^\dagger e^{-i\omega_{l2}t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex1}}A_1(\alpha_1^\dagger e^{-i\omega_{l1}t}-\alpha_1 e^{i\omega_{l1}t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex1}}A_{in}(\alpha_1^\dagger e^{-i\omega_{in}t}-\alpha_1 e^{i\omega_{in}t})\\<br>&amp;+i\hbar\sqrt{\kappa_{ex2}}A_2(\alpha_2^\dagger e^{-i\omega_{l2}t}-\alpha_1 e^{i\omega_{l2}t})\\<br>\end{aligned}$$</p>
+<p>$$\begin{aligned}<br>\dot{\alpha}&amp;=-\frac{\kappa}{2}\alpha+i(\Delta+Gx)\alpha+\sqrt{\kappa_{ex}}\alpha_{in}\\<br>\dot{x}&amp;=v\\<br>\dot{v}&amp;=-\Omega_m^2x-\Gamma_m v+\hbar G|\alpha|^2/m_{eff}<br>\end{aligned}$$</p>
+<p>$$<br>\begin{aligned}<br>\frac{d \sqrt{\kappa_{ex}}\alpha/\alpha_{in}}{d \kappa_{ex}t}<br>&amp;=-\frac{\kappa/\kappa_{ex}}{2}\frac{\sqrt{\kappa_{ex}}\alpha}{\alpha_{in}}+i(\frac{\Delta}{\kappa_{ex}}+\frac{Gx}{\kappa_{ex}})\frac{\sqrt{\kappa_{ex}}\alpha}{\alpha_{in}}+1\\<br>\frac{d Gx/\kappa_{ex}}{d\kappa_{ex}t}&amp;=\frac{Gv}{\kappa_{ex}^2}\\<br>\frac{dGv/\kappa_{ex}^2}{d\kappa_{ex}t}&amp;=-\frac{\Omega_m^2}{\kappa_{ex}^2} \frac{Gx}{\kappa_{ex}}-\frac{\Gamma_m}{\kappa_{ex}} \frac{Gv}{\kappa_{ex}^2}+\frac{\hbar G^2\alpha_{in}^2}{m_{eff}\kappa_{ex}^4}|\sqrt{\kappa_{ex}}\alpha/\alpha_{in}|^2\\<br>\end{aligned}<br>$$</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;光力系统中哈密顿量的线性化&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+    
+  </entry>
   
   <entry>
     <title>python 超快速计算</title>
