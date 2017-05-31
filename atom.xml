@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://thuxuxs.github.io/"/>
-  <updated>2017-05-19T23:40:33.000Z</updated>
+  <updated>2017-05-31T00:16:14.000Z</updated>
   <id>http://thuxuxs.github.io/</id>
   
   <author>
@@ -14,6 +14,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python零碎笔记</title>
+    <link href="http://thuxuxs.github.io/2017/05/30/Python%E9%9B%B6%E7%A2%8E%E7%AC%94%E8%AE%B0/"/>
+    <id>http://thuxuxs.github.io/2017/05/30/Python零碎笔记/</id>
+    <published>2017-05-30T23:12:55.000Z</published>
+    <updated>2017-05-31T00:16:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录Python零碎的笔记<br><a id="more"></a></p>
+<h1 id="os-模块"><a href="#os-模块" class="headerlink" title="os 模块"></a>os 模块</h1><h2 id="常用函数"><a href="#常用函数" class="headerlink" title="常用函数"></a>常用函数</h2><ul>
+<li><p>判断文件是否存在<br><code>os.path.exists</code></p>
+</li>
+<li><p>获取当前目录<br><code>os.getcwd()</code></p>
+</li>
+<li><p>打印目录中的所有文件及目录<br><code>os.listdir(os.getcwd())</code></p>
+</li>
+<li><p>更改所在目录<br><code>os.chdir(&#39;./path&#39;)</code></p>
+</li>
+<li><p>合并路径<br><code>os.path.join(os.getcwd(),os.listdir(os.getcwd())[0])</code></p>
+</li>
+</ul>
+<h2 id="综合示例"><a href="#综合示例" class="headerlink" title="综合示例"></a>综合示例</h2><p>进入当前文件夹内的第一个文件夹<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> os</div><div class="line">os.getcwd()</div><div class="line">a = os.listdir(<span class="string">'./'</span>)</div><div class="line"><span class="keyword">print</span> a</div><div class="line">i = <span class="number">0</span></div><div class="line"><span class="keyword">while</span> <span class="keyword">not</span> os.path.isdir(os.path.join(os.getcwd(), a[i])):</div><div class="line">    i += <span class="number">1</span></div><div class="line">    <span class="keyword">if</span> i == len(a):</div><div class="line">        <span class="keyword">break</span></div><div class="line">os.chdir(os.path.join(os.getcwd(), a[i]))</div><div class="line"><span class="keyword">print</span> os.listdir(<span class="string">'./'</span>)</div></pre></td></tr></table></figure></p>
+<h1 id="zipfile模块"><a href="#zipfile模块" class="headerlink" title="zipfile模块"></a>zipfile模块</h1><h2 id="常用函数-1"><a href="#常用函数-1" class="headerlink" title="常用函数"></a>常用函数</h2><ul>
+<li><p>压缩文件<br><code>zipfile.ZipFile(zipfilename,&#39;w&#39;).write(filename)</code></p>
+</li>
+<li><p>解压文件<br><code>zipfile.ZipFile(zipfilename).extractall(&#39;./dic_path&#39;)</code></p>
+</li>
+</ul>
+<h2 id="综合示例-1"><a href="#综合示例-1" class="headerlink" title="综合示例"></a>综合示例</h2><p>讲当前目录中的python文件全部压缩起来，然后解压<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> zipfile</div><div class="line"><span class="keyword">import</span> os</div><div class="line"></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">zip_all_py</span><span class="params">(filename)</span>:</span></div><div class="line">    <span class="keyword">if</span> os.path.exists(filename):</div><div class="line">        os.remove(filename)</div><div class="line">    <span class="keyword">with</span> zipfile.ZipFile(filename, <span class="string">'w'</span>) <span class="keyword">as</span> f:</div><div class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> os.listdir(<span class="string">'./'</span>):</div><div class="line">            <span class="keyword">if</span> i[<span class="number">-3</span>:] == <span class="string">'.py'</span>:</div><div class="line">                f.write(i)</div><div class="line"></div><div class="line">filename = <span class="string">'all_py.zip'</span></div><div class="line">zip_all_py(filename)</div><div class="line">zf = zipfile.ZipFile(filename)</div><div class="line">zf.namelist()</div><div class="line">zf.extractall(<span class="string">'./all_zip'</span>)</div><div class="line">zipfile.ZipFile(filename).extractall(<span class="string">'./all_zip'</span>)</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;记录Python零碎的笔记&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://thuxuxs.github.io/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>optomechanical damping</title>
@@ -994,40 +1035,6 @@
     
     
       <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo中添加MathJax</title>
-    <link href="http://thuxuxs.github.io/2016/11/23/Hexo%E4%B8%AD%E6%B7%BB%E5%8A%A0MathJax/"/>
-    <id>http://thuxuxs.github.io/2016/11/23/Hexo中添加MathJax/</id>
-    <published>2016-11-23T23:00:59.000Z</published>
-    <updated>2016-11-24T03:55:43.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>本文介绍怎么在Hexo中添加MathJax支持及MathJax示例<br><a id="more"></a></p>
-<h1 id="通过添加MathJax的js可以实现"><a href="#通过添加MathJax的js可以实现" class="headerlink" title="通过添加MathJax的js可以实现"></a>通过添加MathJax的js可以实现</h1><h2 id="如何添加"><a href="#如何添加" class="headerlink" title="如何添加"></a>如何添加</h2><ul>
-<li><p>如果您使用的主题由jade文件构成，那么您需要在主题的<code>\layout\partial\scripts.jade</code>中添加如下代码</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">script(type=&apos;text/javascript&apos;, src=&apos;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&apos;, async)</div><div class="line"></div><div class="line">script(type=&apos;text/x-mathjax-config&apos;).</div><div class="line">  MathJax.Hub.Config(&#123;&quot;HTML-CSS&quot;: &#123; preferredFont: &quot;TeX&quot;, availableFonts: [&quot;STIX&quot;,&quot;TeX&quot;], linebreaks: &#123; automatic:true &#125;, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) &#125;,</div><div class="line">  tex2jax: &#123; inlineMath: [ [&quot;$&quot;, &quot;$&quot;], [&quot;\\\(&quot;,&quot;\\)&quot;] ], processEscapes: true, ignoreClass: &quot;tex2jax_ignore|dno&quot;,skipTags: [&apos;script&apos;, &apos;noscript&apos;, &apos;style&apos;, &apos;textarea&apos;, &apos;pre&apos;, &apos;code&apos;]&#125;,</div><div class="line">  TeX: &#123; noUndefined: &#123; attributes: &#123; mathcolor: &quot;red&quot;, mathbackground: &quot;#FFEEEE&quot;, mathsize: &quot;90%&quot; &#125; &#125;, Macros: &#123; href: &quot;&#123;&#125;&quot; &#125; &#125;,</div><div class="line">  messageStyle: &quot;none&quot;</div><div class="line">  &#125;);</div></pre></td></tr></table></figure>
-</li>
-<li><p>如果您使用的主题配置文件是ejs文件，那么您需要在<code>\layout\_partial\after-footer.ejs</code>中添加</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;script type=<span class="string">"text/x-mathjax-config"</span>&gt;</div><div class="line"> MathJax.Hub.Config(&#123;<span class="string">"HTML-CSS"</span>: &#123; <span class="attr">preferredFont</span>: <span class="string">"TeX"</span>, <span class="attr">availableFonts</span>: [<span class="string">"STIX"</span>,<span class="string">"TeX"</span>], <span class="attr">linebreaks</span>: &#123; <span class="attr">automatic</span>:<span class="literal">true</span> &#125;, <span class="attr">EqnChunk</span>: (MathJax.Hub.Browser.isMobile ? <span class="number">10</span> : <span class="number">50</span>) &#125;,</div><div class="line"> <span class="attr">tex2jax</span>: &#123; <span class="attr">inlineMath</span>: [ [<span class="string">"$"</span>, <span class="string">"$"</span>], [<span class="string">"\\("</span>,<span class="string">"\\)"</span>] ], <span class="attr">processEscapes</span>: <span class="literal">true</span>, <span class="attr">ignoreClass</span>: <span class="string">"tex2jax_ignore|dno"</span>,<span class="attr">skipTags</span>: [<span class="string">'script'</span>, <span class="string">'noscript'</span>, <span class="string">'style'</span>, <span class="string">'textarea'</span>, <span class="string">'pre'</span>, <span class="string">'code'</span>]&#125;,</div><div class="line"> <span class="attr">TeX</span>: &#123; <span class="attr">noUndefined</span>: &#123; <span class="attr">attributes</span>: &#123; <span class="attr">mathcolor</span>: <span class="string">"red"</span>, <span class="attr">mathbackground</span>: <span class="string">"#FFEEEE"</span>, <span class="attr">mathsize</span>: <span class="string">"90%"</span> &#125; &#125;, <span class="attr">Macros</span>: &#123; <span class="attr">href</span>: <span class="string">"&#123;&#125;"</span> &#125; &#125;,</div><div class="line"> <span class="attr">messageStyle</span>: <span class="string">"none"</span></div><div class="line"> &#125;);</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="MathJax示例"><a href="#MathJax示例" class="headerlink" title="MathJax示例"></a>MathJax示例</h2><p>这是行内公式$E=mc^2$，下面是独立的公式<br>$$<br>\begin{aligned}<br>a=\sum_{i=1}^n i=\frac{n(1+n)}{2}<br>\end{aligned}<br>$$</p>
-<h2 id="防止marked解析markdown出错，我们还需要"><a href="#防止marked解析markdown出错，我们还需要" class="headerlink" title="防止marked解析markdown出错，我们还需要"></a>防止marked解析markdown出错，我们还需要</h2><p>请在Hexo的<code>\node_modules\marked\lib\marked.js</code>中做如下修改<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">escape</span>: <span class="regexp">/^\\([\\`*&#123;&#125;\[\]()#+\-.!_&gt;])/</span>,</div></pre></td></tr></table></figure></p>
-<p>改为<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">escape</span>: <span class="regexp">/^\\([`*\[\]()# +\-.!_&gt;])/</span>,</div></pre></td></tr></table></figure></p>
-<p>另外，<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">em: <span class="regexp">/^\b_((?:[^_]|__)+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span>,</div></pre></td></tr></table></figure></p>
-<p>改为<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">em:<span class="regexp">/^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span>,</div></pre></td></tr></table></figure></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文介绍怎么在Hexo中添加MathJax支持及MathJax示例&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="Hexo" scheme="http://thuxuxs.github.io/tags/Hexo/"/>
     
   </entry>
   
