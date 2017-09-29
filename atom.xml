@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://thuxuxs.github.io/"/>
+  <link href="https://thuxuxs.github.io/"/>
   <updated>2017-06-02T04:11:45.000Z</updated>
-  <id>http://thuxuxs.github.io/</id>
+  <id>https://thuxuxs.github.io/</id>
   
   <author>
     <name>Xusheng Xu</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>ML之线性规划</title>
-    <link href="http://thuxuxs.github.io/2017/06/01/ML%E4%B9%8B%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/"/>
-    <id>http://thuxuxs.github.io/2017/06/01/ML之线性规划/</id>
+    <link href="https://thuxuxs.github.io/2017/06/01/ML%E4%B9%8B%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/"/>
+    <id>https://thuxuxs.github.io/2017/06/01/ML之线性规划/</id>
     <published>2017-06-02T03:53:52.000Z</published>
     <updated>2017-06-02T04:11:45.000Z</updated>
     
@@ -37,14 +37,14 @@
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://thuxuxs.github.io/tags/Machine-Learning/"/>
+      <category term="Machine Learning" scheme="https://thuxuxs.github.io/tags/Machine-Learning/"/>
     
   </entry>
   
   <entry>
     <title>python-property装饰器</title>
-    <link href="http://thuxuxs.github.io/2017/06/01/python-property%E8%A3%85%E9%A5%B0%E5%99%A8/"/>
-    <id>http://thuxuxs.github.io/2017/06/01/python-property装饰器/</id>
+    <link href="https://thuxuxs.github.io/2017/06/01/python-property%E8%A3%85%E9%A5%B0%E5%99%A8/"/>
+    <id>https://thuxuxs.github.io/2017/06/01/python-property装饰器/</id>
     <published>2017-06-01T18:42:53.000Z</published>
     <updated>2017-06-01T19:08:23.000Z</updated>
     
@@ -58,14 +58,14 @@
     </summary>
     
     
-      <category term="python" scheme="http://thuxuxs.github.io/tags/python/"/>
+      <category term="python" scheme="https://thuxuxs.github.io/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>Python零碎笔记</title>
-    <link href="http://thuxuxs.github.io/2017/05/30/Python%E9%9B%B6%E7%A2%8E%E7%AC%94%E8%AE%B0/"/>
-    <id>http://thuxuxs.github.io/2017/05/30/Python零碎笔记/</id>
+    <link href="https://thuxuxs.github.io/2017/05/30/Python%E9%9B%B6%E7%A2%8E%E7%AC%94%E8%AE%B0/"/>
+    <id>https://thuxuxs.github.io/2017/05/30/Python零碎笔记/</id>
     <published>2017-05-30T23:12:55.000Z</published>
     <updated>2017-06-02T06:17:41.000Z</updated>
     
@@ -115,14 +115,14 @@
     </summary>
     
     
-      <category term="Python" scheme="http://thuxuxs.github.io/tags/Python/"/>
+      <category term="Python" scheme="https://thuxuxs.github.io/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>optomechanical damping</title>
-    <link href="http://thuxuxs.github.io/2017/05/08/optomechanical-damping/"/>
-    <id>http://thuxuxs.github.io/2017/05/08/optomechanical-damping/</id>
+    <link href="https://thuxuxs.github.io/2017/05/08/optomechanical-damping/"/>
+    <id>https://thuxuxs.github.io/2017/05/08/optomechanical-damping/</id>
     <published>2017-05-09T05:39:46.000Z</published>
     <updated>2017-05-19T23:40:33.000Z</updated>
     
@@ -144,14 +144,14 @@
     </summary>
     
     
-      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+      <category term="Physics" scheme="https://thuxuxs.github.io/tags/Physics/"/>
     
   </entry>
   
   <entry>
     <title>Topological operator on degenerate or non-degenerate modes </title>
-    <link href="http://thuxuxs.github.io/2017/04/26/Topological-operator-on-degenerate-or-non-degenerate-modes/"/>
-    <id>http://thuxuxs.github.io/2017/04/26/Topological-operator-on-degenerate-or-non-degenerate-modes/</id>
+    <link href="https://thuxuxs.github.io/2017/04/26/Topological-operator-on-degenerate-or-non-degenerate-modes/"/>
+    <id>https://thuxuxs.github.io/2017/04/26/Topological-operator-on-degenerate-or-non-degenerate-modes/</id>
     <published>2017-04-26T21:40:50.000Z</published>
     <updated>2017-04-27T17:58:48.000Z</updated>
     
@@ -168,14 +168,14 @@
     </summary>
     
     
-      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+      <category term="Physics" scheme="https://thuxuxs.github.io/tags/Physics/"/>
     
   </entry>
   
   <entry>
     <title>神经网络</title>
-    <link href="http://thuxuxs.github.io/2017/03/24/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
-    <id>http://thuxuxs.github.io/2017/03/24/神经网络/</id>
+    <link href="https://thuxuxs.github.io/2017/03/24/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    <id>https://thuxuxs.github.io/2017/03/24/神经网络/</id>
     <published>2017-03-24T20:54:29.000Z</published>
     <updated>2017-03-25T00:54:16.000Z</updated>
     
@@ -239,14 +239,14 @@
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://thuxuxs.github.io/tags/Machine-Learning/"/>
+      <category term="Machine Learning" scheme="https://thuxuxs.github.io/tags/Machine-Learning/"/>
     
   </entry>
   
   <entry>
     <title>GD_and_SGD</title>
-    <link href="http://thuxuxs.github.io/2017/03/13/GD-and-SGD/"/>
-    <id>http://thuxuxs.github.io/2017/03/13/GD-and-SGD/</id>
+    <link href="https://thuxuxs.github.io/2017/03/13/GD-and-SGD/"/>
+    <id>https://thuxuxs.github.io/2017/03/13/GD-and-SGD/</id>
     <published>2017-03-13T20:05:18.000Z</published>
     <updated>2017-03-15T06:17:30.000Z</updated>
     
@@ -263,14 +263,14 @@
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://thuxuxs.github.io/tags/Machine-Learning/"/>
+      <category term="Machine Learning" scheme="https://thuxuxs.github.io/tags/Machine-Learning/"/>
     
   </entry>
   
   <entry>
     <title>设计资源</title>
-    <link href="http://thuxuxs.github.io/2017/02/13/%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%BA%90/"/>
-    <id>http://thuxuxs.github.io/2017/02/13/设计资源/</id>
+    <link href="https://thuxuxs.github.io/2017/02/13/%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%BA%90/"/>
+    <id>https://thuxuxs.github.io/2017/02/13/设计资源/</id>
     <published>2017-02-13T21:30:11.000Z</published>
     <updated>2017-02-13T21:31:54.000Z</updated>
     
@@ -655,14 +655,14 @@
     </summary>
     
     
-      <category term="Design" scheme="http://thuxuxs.github.io/tags/Design/"/>
+      <category term="Design" scheme="https://thuxuxs.github.io/tags/Design/"/>
     
   </entry>
   
   <entry>
     <title>二能级系统以及常用计算方法</title>
-    <link href="http://thuxuxs.github.io/2017/02/03/%E4%BA%8C%E8%83%BD%E7%BA%A7%E7%B3%BB%E7%BB%9F%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95/"/>
-    <id>http://thuxuxs.github.io/2017/02/03/二能级系统以及常用计算方法/</id>
+    <link href="https://thuxuxs.github.io/2017/02/03/%E4%BA%8C%E8%83%BD%E7%BA%A7%E7%B3%BB%E7%BB%9F%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95/"/>
+    <id>https://thuxuxs.github.io/2017/02/03/二能级系统以及常用计算方法/</id>
     <published>2017-02-03T22:41:33.000Z</published>
     <updated>2017-04-27T17:58:29.000Z</updated>
     
@@ -680,14 +680,14 @@
     </summary>
     
     
-      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+      <category term="Physics" scheme="https://thuxuxs.github.io/tags/Physics/"/>
     
   </entry>
   
   <entry>
     <title>费米黄金法则</title>
-    <link href="http://thuxuxs.github.io/2017/01/31/%E8%B4%B9%E7%B1%B3%E9%BB%84%E9%87%91%E6%B3%95%E5%88%99/"/>
-    <id>http://thuxuxs.github.io/2017/01/31/费米黄金法则/</id>
+    <link href="https://thuxuxs.github.io/2017/01/31/%E8%B4%B9%E7%B1%B3%E9%BB%84%E9%87%91%E6%B3%95%E5%88%99/"/>
+    <id>https://thuxuxs.github.io/2017/01/31/费米黄金法则/</id>
     <published>2017-01-31T22:09:32.000Z</published>
     <updated>2017-02-01T00:53:37.000Z</updated>
     
@@ -710,14 +710,14 @@
     </summary>
     
     
-      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+      <category term="Physics" scheme="https://thuxuxs.github.io/tags/Physics/"/>
     
   </entry>
   
   <entry>
     <title>光力系统哈密顿量的线性化</title>
-    <link href="http://thuxuxs.github.io/2017/01/09/%E5%85%89%E5%8A%9B%E7%B3%BB%E7%BB%9F%E5%93%88%E5%AF%86%E9%A1%BF%E9%87%8F%E7%9A%84%E7%BA%BF%E6%80%A7%E5%8C%96/"/>
-    <id>http://thuxuxs.github.io/2017/01/09/光力系统哈密顿量的线性化/</id>
+    <link href="https://thuxuxs.github.io/2017/01/09/%E5%85%89%E5%8A%9B%E7%B3%BB%E7%BB%9F%E5%93%88%E5%AF%86%E9%A1%BF%E9%87%8F%E7%9A%84%E7%BA%BF%E6%80%A7%E5%8C%96/"/>
+    <id>https://thuxuxs.github.io/2017/01/09/光力系统哈密顿量的线性化/</id>
     <published>2017-01-09T22:28:51.000Z</published>
     <updated>2017-01-18T23:13:55.000Z</updated>
     
@@ -739,14 +739,14 @@
     </summary>
     
     
-      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+      <category term="Physics" scheme="https://thuxuxs.github.io/tags/Physics/"/>
     
   </entry>
   
   <entry>
     <title>python 超快速计算</title>
-    <link href="http://thuxuxs.github.io/2017/01/02/python-%E8%B6%85%E5%BF%AB%E9%80%9F%E8%AE%A1%E7%AE%97/"/>
-    <id>http://thuxuxs.github.io/2017/01/02/python-超快速计算/</id>
+    <link href="https://thuxuxs.github.io/2017/01/02/python-%E8%B6%85%E5%BF%AB%E9%80%9F%E8%AE%A1%E7%AE%97/"/>
+    <id>https://thuxuxs.github.io/2017/01/02/python-超快速计算/</id>
     <published>2017-01-02T22:54:05.000Z</published>
     <updated>2017-01-02T23:26:52.000Z</updated>
     
@@ -762,14 +762,14 @@
     </summary>
     
     
-      <category term="Python" scheme="http://thuxuxs.github.io/tags/Python/"/>
+      <category term="Python" scheme="https://thuxuxs.github.io/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>Adiabatic passage in EIT</title>
-    <link href="http://thuxuxs.github.io/2016/12/20/Adiabatic-passage-in-EIT/"/>
-    <id>http://thuxuxs.github.io/2016/12/20/Adiabatic-passage-in-EIT/</id>
+    <link href="https://thuxuxs.github.io/2016/12/20/Adiabatic-passage-in-EIT/"/>
+    <id>https://thuxuxs.github.io/2016/12/20/Adiabatic-passage-in-EIT/</id>
     <published>2016-12-21T03:24:24.000Z</published>
     <updated>2016-12-22T22:07:39.000Z</updated>
     
@@ -791,14 +791,14 @@
     </summary>
     
     
-      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+      <category term="Physics" scheme="https://thuxuxs.github.io/tags/Physics/"/>
     
   </entry>
   
   <entry>
     <title>郎之万方程</title>
-    <link href="http://thuxuxs.github.io/2016/12/16/%E9%83%8E%E4%B9%8B%E4%B8%87%E6%96%B9%E7%A8%8B/"/>
-    <id>http://thuxuxs.github.io/2016/12/16/郎之万方程/</id>
+    <link href="https://thuxuxs.github.io/2016/12/16/%E9%83%8E%E4%B9%8B%E4%B8%87%E6%96%B9%E7%A8%8B/"/>
+    <id>https://thuxuxs.github.io/2016/12/16/郎之万方程/</id>
     <published>2016-12-16T20:55:03.000Z</published>
     <updated>2016-12-17T07:24:45.000Z</updated>
     
@@ -822,14 +822,14 @@
     </summary>
     
     
-      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+      <category term="Physics" scheme="https://thuxuxs.github.io/tags/Physics/"/>
     
   </entry>
   
   <entry>
     <title>两个光学模式与一个力学模式的耦合</title>
-    <link href="http://thuxuxs.github.io/2016/12/10/%E4%B8%A4%E4%B8%AA%E5%85%89%E5%AD%A6%E6%A8%A1%E5%BC%8F%E4%B8%8E%E4%B8%80%E4%B8%AA%E5%8A%9B%E5%AD%A6%E6%A8%A1%E5%BC%8F%E7%9A%84%E8%80%A6%E5%90%88/"/>
-    <id>http://thuxuxs.github.io/2016/12/10/两个光学模式与一个力学模式的耦合/</id>
+    <link href="https://thuxuxs.github.io/2016/12/10/%E4%B8%A4%E4%B8%AA%E5%85%89%E5%AD%A6%E6%A8%A1%E5%BC%8F%E4%B8%8E%E4%B8%80%E4%B8%AA%E5%8A%9B%E5%AD%A6%E6%A8%A1%E5%BC%8F%E7%9A%84%E8%80%A6%E5%90%88/"/>
+    <id>https://thuxuxs.github.io/2016/12/10/两个光学模式与一个力学模式的耦合/</id>
     <published>2016-12-10T21:32:46.000Z</published>
     <updated>2017-04-14T22:09:12.000Z</updated>
     
@@ -848,14 +848,14 @@
     </summary>
     
     
-      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+      <category term="Physics" scheme="https://thuxuxs.github.io/tags/Physics/"/>
     
   </entry>
   
   <entry>
     <title>双腔耦合</title>
-    <link href="http://thuxuxs.github.io/2016/12/09/%E5%8F%8C%E8%85%94%E8%80%A6%E5%90%88/"/>
-    <id>http://thuxuxs.github.io/2016/12/09/双腔耦合/</id>
+    <link href="https://thuxuxs.github.io/2016/12/09/%E5%8F%8C%E8%85%94%E8%80%A6%E5%90%88/"/>
+    <id>https://thuxuxs.github.io/2016/12/09/双腔耦合/</id>
     <published>2016-12-09T17:37:21.000Z</published>
     <updated>2016-12-10T08:26:50.000Z</updated>
     
@@ -870,14 +870,14 @@
     </summary>
     
     
-      <category term="Physic" scheme="http://thuxuxs.github.io/tags/Physic/"/>
+      <category term="Physic" scheme="https://thuxuxs.github.io/tags/Physic/"/>
     
   </entry>
   
   <entry>
     <title>理解Python中的with...as...语法[转载]</title>
-    <link href="http://thuxuxs.github.io/2016/12/07/%E7%90%86%E8%A7%A3Python%E4%B8%AD%E7%9A%84with-as-%E8%AF%AD%E6%B3%95-%E8%BD%AC%E8%BD%BD/"/>
-    <id>http://thuxuxs.github.io/2016/12/07/理解Python中的with-as-语法-转载/</id>
+    <link href="https://thuxuxs.github.io/2016/12/07/%E7%90%86%E8%A7%A3Python%E4%B8%AD%E7%9A%84with-as-%E8%AF%AD%E6%B3%95-%E8%BD%AC%E8%BD%BD/"/>
+    <id>https://thuxuxs.github.io/2016/12/07/理解Python中的with-as-语法-转载/</id>
     <published>2016-12-08T06:57:10.000Z</published>
     <updated>2016-12-08T07:08:49.000Z</updated>
     
@@ -910,16 +910,16 @@
     </summary>
     
     
-      <category term="Python" scheme="http://thuxuxs.github.io/tags/Python/"/>
+      <category term="Python" scheme="https://thuxuxs.github.io/tags/Python/"/>
     
-      <category term="zz" scheme="http://thuxuxs.github.io/tags/zz/"/>
+      <category term="zz" scheme="https://thuxuxs.github.io/tags/zz/"/>
     
   </entry>
   
   <entry>
     <title>Machine Learning算法</title>
-    <link href="http://thuxuxs.github.io/2016/12/05/Machine-Learning%E7%AE%97%E6%B3%95/"/>
-    <id>http://thuxuxs.github.io/2016/12/05/Machine-Learning算法/</id>
+    <link href="https://thuxuxs.github.io/2016/12/05/Machine-Learning%E7%AE%97%E6%B3%95/"/>
+    <id>https://thuxuxs.github.io/2016/12/05/Machine-Learning算法/</id>
     <published>2016-12-06T06:57:45.000Z</published>
     <updated>2016-12-15T18:31:43.000Z</updated>
     
@@ -945,14 +945,14 @@
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://thuxuxs.github.io/tags/Machine-Learning/"/>
+      <category term="Machine Learning" scheme="https://thuxuxs.github.io/tags/Machine-Learning/"/>
     
   </entry>
   
   <entry>
     <title>Python类的内置函数</title>
-    <link href="http://thuxuxs.github.io/2016/12/05/Python%E7%B1%BB%E7%9A%84%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0/"/>
-    <id>http://thuxuxs.github.io/2016/12/05/Python类的内置函数/</id>
+    <link href="https://thuxuxs.github.io/2016/12/05/Python%E7%B1%BB%E7%9A%84%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0/"/>
+    <id>https://thuxuxs.github.io/2016/12/05/Python类的内置函数/</id>
     <published>2016-12-06T06:18:42.000Z</published>
     <updated>2016-12-07T06:11:51.000Z</updated>
     
@@ -992,14 +992,14 @@
     </summary>
     
     
-      <category term="Python" scheme="http://thuxuxs.github.io/tags/Python/"/>
+      <category term="Python" scheme="https://thuxuxs.github.io/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>OMIT</title>
-    <link href="http://thuxuxs.github.io/2016/12/02/OMIT/"/>
-    <id>http://thuxuxs.github.io/2016/12/02/OMIT/</id>
+    <link href="https://thuxuxs.github.io/2016/12/02/OMIT/"/>
+    <id>https://thuxuxs.github.io/2016/12/02/OMIT/</id>
     <published>2016-12-02T21:32:22.000Z</published>
     <updated>2016-12-04T08:42:42.000Z</updated>
     
@@ -1035,7 +1035,7 @@
     </summary>
     
     
-      <category term="Physics" scheme="http://thuxuxs.github.io/tags/Physics/"/>
+      <category term="Physics" scheme="https://thuxuxs.github.io/tags/Physics/"/>
     
   </entry>
   
