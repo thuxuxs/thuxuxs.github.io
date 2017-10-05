@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thuxuxs.github.io/"/>
-  <updated>2017-10-05T19:59:13.000Z</updated>
+  <updated>2017-10-05T21:42:59.000Z</updated>
   <id>https://thuxuxs.github.io/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="https://thuxuxs.github.io/2017/10/05/ML-%E6%A6%82%E7%8E%87%E8%AE%BA%E5%9F%BA%E7%A1%80/"/>
     <id>https://thuxuxs.github.io/2017/10/05/ML-概率论基础/</id>
     <published>2017-10-05T18:11:44.000Z</published>
-    <updated>2017-10-05T19:59:13.000Z</updated>
+    <updated>2017-10-05T21:42:59.000Z</updated>
     
-    <content type="html"><![CDATA[<!--本文介绍概率论中的基础知识-->
+    <content type="html"><![CDATA[<p>本文介绍概率论中的基础知识<br><a id="more"></a></p>
 <ul>
 <li>表A，五个小球的颜色和大小</li>
 </ul>
@@ -85,21 +85,7 @@
     
     <summary type="html">
     
-      &lt;!--本文介绍概率论中的基础知识--&gt;
-&lt;ul&gt;
-&lt;li&gt;表A，五个小球的颜色和大小&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;质量&lt;/th&gt;
-&lt;th&gt;颜色&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;小&lt;/td&gt;
-&lt;
+      &lt;p&gt;本文介绍概率论中的基础知识&lt;br&gt;
     
     </summary>
     
@@ -113,9 +99,14 @@
     <link href="https://thuxuxs.github.io/2017/09/29/LeetCode-6-ZigZag-Conversion/"/>
     <id>https://thuxuxs.github.io/2017/09/29/LeetCode-6-ZigZag-Conversion/</id>
     <published>2017-09-29T22:08:24.000Z</published>
-    <updated>2017-09-29T22:12:37.000Z</updated>
+    <updated>2017-10-05T21:42:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>some thing<br><a id="more"></a><br>some thing</p>
+]]></content>
     
     <summary type="html">
+    
+      &lt;p&gt;some thing&lt;br&gt;
     
     </summary>
     
